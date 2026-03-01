@@ -93,19 +93,19 @@ Before you begin, ensure the following requirements are met:
 
 2. Tap the **Search** icon at the bottom
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-06.png" width="15%" alt="1" />
 
 3. Enter the app name in the **search field** and press **Search**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-07.png" width="15%" alt="1" />
 
 4. Find the app in the results and tap **Get** (or the cloud download icon)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-08.png" width="15%" alt="1" />
 
 5. Tap **Open** to launch the app
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-09.png" width="15%" alt="1" />
 
 **Result:** The app was installed on iOS for users, now users can get access to then app's feature's.
 
@@ -113,19 +113,17 @@ Before you begin, ensure the following requirements are met:
 
 1. Tap on the **app icon**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
-
 2. Select the locations for which you want to see the weather details > tap **Continue**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-10.png" width="15%" alt="1" />
 
 3. Enable **Location permission**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-11.png" width="15%" alt="1" />
 
 4. Tap **Enable notifications** to get the latest weather updates (or you can skip by tapping **No, thanks**)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-12.png" width="15%" alt="1" />
 
 **Result:** The app launched successfully.
 
@@ -135,23 +133,17 @@ Before you begin, ensure the following requirements are met:
 
 1. Tap **Menu** in the top-left corner
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-13.png" width="15%" alt="1" />
 
 2. Select **Sign in / Sign up**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-14.png" width="15%" alt="1" />
 
 3. Tap **Create account**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
-
 4. Fill in the requested details for the creation of the account (You can also sign up through email)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
-
 5. Enter the phone number to which you want to receive the **verification code**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
 
 6. Select the way you want to receive the verification code:  
 - By text
@@ -165,11 +157,11 @@ Before you begin, ensure the following requirements are met:
 
 1. Tap the **Add (+) icon**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-15.png" width="15%" alt="1" />
 
 2. Enter the city name or its ZIP code for which you want to know the weather details > tap on the **Name of the city**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-16.png" width="15%" alt="1" />
 
 **Result:** Location added without any issues. 
 
@@ -179,15 +171,15 @@ Once you add the location, the app's home screen shows the current weather there
 
 1. Scroll down to see the weather forecast and details.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-17.png" width="15%" alt="1" />
 
 2. Continue scrolling to see the **map of the location**, **its wind**, and **pressure details**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-18.png" width="15%" alt="1" />
 
 3. Scroll again to see the **details of precipitation** and the **locations of the sun and moon**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-" width="15%" alt="1" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/yahoo-weather-app/yahoo-step-19.png" width="15%" alt="1" />
 
 **Result:** The weather details are displayed for the selected location.
 
