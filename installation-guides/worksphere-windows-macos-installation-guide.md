@@ -80,13 +80,21 @@ Ensure the following conditions are met before installation:
 
 2. Go to the WorkSphere Download page: https://www.worksphereapp.com/download
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-02.png" width="30%" alt="1" />
+
 3. Click **Download Now**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-03.png" width="30%" alt="1" />
 
 4. Select the type of **installer file** according to your system:
 
 - **Download WorkSphere Desktop for Windows** to download the installer file for Windows
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/workphere-step-4.1.png" width="30%" alt="1" />
+
 - **Download WorkSphere Desktop for macOS** to download the installer file for macOS.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-4.2.png" width="30%" alt="1" />
 
 5. Wait for the **installer file** to download.
 
@@ -100,13 +108,21 @@ Ensure the following conditions are met before installation:
  
 - In Windows, it will be: `WorkSphere_setup.exe`
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-5.1.png" width="30%" alt="1" />
+
 - In macOS, it will be: `WorkSphere_macOS.dmg`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-5.2.png" width="30%" alt="1" />
 
 3. Do the following to complete the installation:
 
 - On Windows: click **Install**  
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-06.png" width="30%" alt="1" />
+
 - On macOS: **Drag the app to the Applications folder**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-07.png" width="30%" alt="1" />
 
 **Expected result:** The WorkSphere Desktop app is installed.
 
@@ -120,19 +136,29 @@ Follow the steps to confirm the installation.
 
 1. Open **Start Menu** > Search **WorkSphere Desktop**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-08.png" width="30%" alt="1" />
+
 2. Click **WorkSphere Desktop app icon**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-09.png" width="30%" alt="1" />
+
 3. Verify that the application launches without error messages.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-10.png" width="30%" alt="1" />
 
 ### macOS
 
 1. Open **Launchpad** > Type **WorkSphere Desktop** in the search bar
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-11.png" width="30%" alt="1" />
 
 2.  Click **WorkSphere Desktop app icon**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-12.png" width="30%" alt="1" />
 
 3. Confirm the app launches without any errors.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-13.png" width="30%" alt="1" />
 
 ## 7. Uninstall the WorkSphere Desktop app
 
@@ -140,13 +166,15 @@ Follow the steps to confirm the installation.
 
 1. Open the **Start Menu** > **Apps** > **Apps and Features** (this step may vary slightly according to the Windows version)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-14.png" width="30%" alt="1" />
+
 2. Search **WorkSphere Desktop** > click on the **app icon**
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-15.png" width="30%" alt="1" />
 
 3. Click **Uninstall**
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-16.png" width="30%" alt="1" />
 
 **Result:** The WorkSphere Desktop app is uninstalled on Windows.
 
@@ -154,11 +182,15 @@ Follow the steps to confirm the installation.
 
 1. Open **Finder**
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-17.png" width="30%" alt="1" />
+
 2. Go to **Applications**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-18.png" width="30%" alt="1" />
 
 3. Drag app to **Trash**
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/worksphere-desktop/worksphere-step-19.png" width="30%" alt="1" />
 
 **Result:** The WorkSphere Desktop app is uninstalled on macOS.
 
