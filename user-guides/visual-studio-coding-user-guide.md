@@ -44,9 +44,13 @@ Download: <https://code.visualstudio.com/download>
 
 Double-click the VS Code icon on your desktop or search "Visual Studio Code" in the Start menu.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-getting-started.png" width="300px" />
+
 ### Step 2: Explore the Welcome Screen
 
 Go through the basic customization options and tutorials that appear on the Welcome tab, which is the first screen after launching the app.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-getting-started.png" width="300px" />
 
 ### Step 3: Understand the Interface
 
@@ -54,15 +58,27 @@ There are 6 main icons on the left sidebar:
 
 - **Explorer** - Browse, open, and manage your project files and folders.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-1-getting-started.png" width="300px" />
+
 - **Search** - Find and replace text across all files in your project.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-2-getting-started.png" width="300px" />
 
 - **Source Control** - Track code changes and manage version control using Git.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-3-getting-started.png" width="300px" />
+
 - **Run and Debug** - Run your code and identify errors using the built-in debugger.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-4-getting-started.png" width="300px" />
+
+- **Remote Explorer** - Connect to remote servers, containers, or cloud environments.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-5-getting-started.png" width="300px" />
 
 - **Extensions** - Browse and install additional tools from the VS Code marketplace.
 
-- **Remote Explorer** - Connect to remote servers, containers, or cloud environments.
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-6-getting-started.png" width="300px" />
 
 > 💡 **Tip:** Changing the color theme to dark is easier on the eyes during long coding sessions.
 
@@ -98,13 +114,23 @@ Git Integration allows users to track code changes, commit, and manage version c
 
 1. Click **File** in the top menu bar.
 
-2. Click **New File** (**Ctrl+N**)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-1.png" width="300px" />
+
+2. Click **New Text File** (**Ctrl+N**)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-1.png" width="300px" />
 
 3. Click **File** > **Save As** (**Ctrl+Shift+S**) to name and save the file.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-task-1.png" width="300px" />
+
 4. Choose your file location and enter a file name.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-04-task-1.png" width="300px" />
+
 5. Click **Save**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-05-task-1.png" width="300px" />
 
 **Expected Result:** A new file is created.
 
@@ -113,10 +139,16 @@ Git Integration allows users to track code changes, commit, and manage version c
 **Steps:**
 
 1.  Click the **Settings icon** in the bottom left corner of the screen.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-2.png" width="300px" />
  
 2. Choose **Themes** > **Color Theme** (**Ctrl+K Ctrl+T**)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-2.png" width="300px" />
  
 3. Select the color theme you prefer from the list of options.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-task-2.png" width="300px" />
 
 **Expected Result:** The VS Code interface changes to the selected color theme immediately.
 
@@ -125,10 +157,16 @@ Git Integration allows users to track code changes, commit, and manage version c
 **Steps:**
 
 1. Click on the **Settings icon** > **Settings** (**Ctrl+,**)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-3.png" width="300px" />
  
 2. Select **Text Editor** > **Font**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-3.png" width="300px" />
  
 3. Enter your preferred font size in the **Font Size** field.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-task-3.png" width="300px" />
 
 **Expected Result:** The font size updates immediately across the editor.
 
@@ -137,8 +175,12 @@ Git Integration allows users to track code changes, commit, and manage version c
 **Steps:**
 
 1. Click **File** in the top menu bar.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-4.png" width="300px" />
  
 2. Click **Auto Save** to enable it.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-4.png" width="300px" />
  
 **Expected Result:** Auto Save is enabled. VS Code now saves files automatically without manual saving.
 
@@ -148,9 +190,15 @@ Git Integration allows users to track code changes, commit, and manage version c
 
 1. Click **Extensions** (**Ctrl+Shift+X**) on the sidebar.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-5.png" width="300px" />
+
 2. Choose or search for the extensions you want; click on the **icon of the extensions** you prefer
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-5.png" width="300px" />
+
 3. Click **Install** and wait for it to get completed.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-task-5.png" width="300px" />
 
 **Expected Result:** Extension is installed and is ready to use.
 
@@ -160,7 +208,11 @@ Git Integration allows users to track code changes, commit, and manage version c
 
 1. Click **Terminal** on the top menu.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-6.png" width="300px" />
+
 2. Choose **New Terminal** (**Ctrl+Shift+\`**)
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-6.png" width="300px" />
 
 **Expected Result:** A new terminal opens without any errors.
 
