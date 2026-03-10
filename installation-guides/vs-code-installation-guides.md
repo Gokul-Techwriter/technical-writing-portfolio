@@ -21,7 +21,7 @@ Visual Studio Code (VS Code) is a code editor developed by Microsoft. This guide
 
 This guide is intended for:
 
-- Software Developers and IT Support Teams installing VS Code on their Windows for the first time.
+- Software Developers and IT Support Teams looking to install VS Code on their Windows for the first time.
 
 - Beginners with basic computer knowledge looking to install VS Code on their Windows.
 
@@ -44,9 +44,9 @@ This guide is intended for:
 ## Prerequisites
 
 - [ ] Administrator access
-- [ ] Your system meets the minimum system requirements
+- [ ] Your system meets the minimum system requirements.
 - [ ] Stable internet connection
-- [ ] Any previous version of VS Code is uninstalled (for clean installation)
+- [ ] Any previous version of VS Code is uninstalled (for a clean installation)
 
 ---
 
@@ -74,7 +74,7 @@ Click **Download for Windows**; wait for the download completion.
 
 ### Step 1: Open the downloaded file location
 
-Open the **Downloads folder** in your Windows
+Open the **Downloads folder** in your Windows.
 
 ### Step 2: Start the installation process
 
@@ -82,14 +82,14 @@ Double click `VSCodeUserSetup-x64-1.109.5`
 
 ### Step 3: Accept the License Agreement
 
-Click **I accept the agreement** after reading the License agreements > click **Next**
+Click **I accept the agreement** after reading the License agreements > click **Next**.
 
 > ⚠️ **Warning:** You must accept the agreement 
 > to proceed with installation.
 
 ### Step 4: Select the Installation Folder
 
-Select the folder to which you want the VS Code to be installed > **Next**
+Select the folder to which you want the VS Code to be installed > **Next**.
 
 > 💡 **Tip:** Keep the default folder unless you 
 > have a specific reason to change it.
@@ -100,7 +100,7 @@ Choose the **Start Menu Folder** > click **Next**
 
 ### Step 6: Select Additional Task
 
-Tick the **Create a desktop icon** > **Next**
+Tick the **Create a desktop icon** > **Next**.
 
 > 💡 **Tip:** Also tick **Add to PATH** option — 
 > this allows you to open VS Code from the 
@@ -131,7 +131,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 ### Step 2: Sign in to VS Code
 
-1. Click on the **Profile icon** on the left bottom > **Sign in to use AI features**
+1. Click on the **Profile icon** on the bottom left > **Sign in to use AI features**
 
 2. Choose a method to sign in; provide the credentials asked by the method you choose.
 
@@ -139,9 +139,9 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 ### Step 3: Install Extensions
 
-1. Click on the **Extension icon** (**Ctrl+Shift+X**) on the **Left side bar**
+1. Click on the **Extension icon** (**Ctrl+Shift+X**) on the **Left side bar**.
 
-2. Search the extension you want > click **Install**
+2. Search for the extension you want > click **Install**
 
 **Expected Result:** Extension is installed without any errors.
 
@@ -151,9 +151,9 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - [ ] Confirm VS Code opens without any errors.
 
-- [ ] Verify the version is correct: Open VS Code > click **Help** > **About**
+- [ ] Verify the version is correct: Open VS Code > click **Help** > **About**.
 
-- [ ] Ensure basic features like creating new files, Extensions, Terminals, and Settings work properly.
+- [ ] Ensure basic features like creating new file, extension, terminals, and settings works properly.
 
 **Expected Result:** VS Code is installed and functioning correctly on your Windows system.
 
@@ -169,7 +169,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 3. Search **Microsoft Visual Studio Code**
 
-4. Click on the **VS Code app icon** > Choose **Yes** for the uninstall confirmation pop up.
+4. Click on the **VS Code app icon** > Choose **Yes** for the uninstall confirmation pop-up.
 
 5. Wait for the uninstallation to get completed > Click **Ok** for the confirmation 
 
@@ -204,7 +204,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 **Expected Result:** VS Code is successfully installed on Windows.
 
-### Issue 2: Installing Extension fails
+### Issue 2: Installing the extension fails
 
 **Cause:**
 
@@ -212,34 +212,34 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - Insufficient storage space
 
-- Permission for the extension is blocked in settings
+- Permission for the extension is blocked in settings.
 
-- App is outdated for the Extension
+- The app is outdated for the extension.
 
 **Fix:**  
 
-1. Ensure a stable internet connection
+1. Ensure a stable internet connection.
 
 2. Confirm your system has enough storage space for the installation. If not, delete some unwanted files.
 
-3. Make sure the type of extension you are trying to install is allowed. For checking that click **settings icon** > **Settings** > search **Extension** > confirm the type of extension is allowed
+3. Make sure the type of extension you are trying to install is allowed. To check that, click the **settings icon** > **Settings** > search **Extension** > confirm the type of extension is allowed.
 
-4. Check whether the type of extension runs on your current app version. If not, update VS Code by clicking **Help** > **Check for Updates** and install available updates.
+4. Check whether the type of extension runs on your current app version. If not, update VS Code by clicking **Help** > **Check for Updates** and installing available updates.
 
 **Expected Result:** The extension is successfully installed.
 
 ### Issue 3: Unable to Uninstall
 
 **Cause:**
-- VS Code is still running in the background
-- Insufficient administrator permissions
+- VS Code is still running in the background.
+- Insufficient administrator permissions.
 
 **Fix:**
 1. Open **Task Manager** (**Ctrl+Shift+Esc**) and 
    end any running VS Code processes
 2. Ensure you have administrator access on Windows
 3. Restart the system
-4. Attempt the uninstallation again
+4. Attempt the uninstallation again.
 
 **Expected Result:** VS Code is successfully 
 uninstalled from Windows.
@@ -249,9 +249,9 @@ uninstalled from Windows.
 ## FAQ
 
 **Q1: Is VS Code free?**
-**A:** Yes, VS Code is a free code editor that runs on macOS, Linux, and Windows.
+**A:** Yes, VS Code is a free code editor, that runs on the macOS, Linux, and Windows operating systems.
 
-**Q2: How do I update the app?**
+**Q2: How to update the app?**
 **A:** By default, VS Code automatically updates when new versions are released. To disable auto-updates, go to **File** > **Preferences** > **Settings** > search **Update: Mode** > change it from **default** to **none**.
 
 **Q3: Can I control which extensions are allowed to be installed?**
