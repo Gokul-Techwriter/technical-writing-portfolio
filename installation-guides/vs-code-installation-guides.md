@@ -15,7 +15,7 @@
 
 ## Introduction
 
-Visual Studio Code (VS Code) is a code editor developed by Microsoft. This guide helps users to successfully download, install, verify and uninstall it on Windows.
+Visual Studio Code (VS Code) is a code editor developed by Microsoft. This guide helps users to successfully download, install, verify, and uninstall it on Windows.
 
 ## Who This Guide Is For
 
@@ -66,7 +66,7 @@ Click **Download for Windows**; wait for the download completion.
 > 💡 **Tip:** Note where the file is downloaded -
 > you will need it in the next step.
 
-**Expected Result:** Installer file of VS Code is downloaded without any errors. 
+**Expected Result:** The installer file of VS Code is downloaded without any errors. 
 
 ---
 
@@ -74,9 +74,9 @@ Click **Download for Windows**; wait for the download completion.
 
 ### Step 1: Open the downloaded file location
 
-Open **Downloads folder** in your Windows
+Open the **Downloads folder** in your Windows
 
-### Step 2: Start the installing process
+### Step 2: Start the installation process
 
 Double click `VSCodeUserSetup-x64-1.109.5`
 
@@ -127,7 +127,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 > 💡 **Tip:** Changing the color theme to dark is easier on the eyes during long coding sessions.
 
-**Expected Result:** Color theme of VS Code is changed without any errors.
+**Expected Result:** The color theme of VS Code is changed without any errors.
 
 ### Step 2: Sign in to VS Code
 
@@ -153,7 +153,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - [ ] Verify the version is correct: Open VS Code > click **Help** > **About**
 
-- [ ] Ensure basic features like Creating new file, Extension, Terminals, and Settings works properly.
+- [ ] Ensure basic features like creating new files, Extensions, Terminals, and Settings work properly.
 
 **Expected Result:** VS Code is installed and functioning correctly on your Windows system.
 
@@ -171,7 +171,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 4. Click on the **VS Code app icon** > Choose **Yes** for the uninstall confirmation pop up.
 
-5. Wait for the uninstalling to get completed > Click **Ok** for the confirmation 
+5. Wait for the uninstallation to get completed > Click **Ok** for the confirmation 
 
 **Expected Result:** VS Code is uninstalled from Windows without any errors.
 
@@ -185,7 +185,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - Insufficient storage 
 
-- System doesn't meet the minimum requirements for the installation
+- The system doesn't meet the minimum requirements for the installation
 
 - Corrupted Installer file
 
@@ -218,9 +218,9 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 **Fix:**  
 
-1. Ensure a stable internet connect
+1. Ensure a stable internet connection
 
-2. Confirm your system has enough storage space for the installing. If not, delete some unwanted files.
+2. Confirm your system has enough storage space for the installation. If not, delete some unwanted files.
 
 3. Make sure the type of extension you are trying to install is allowed. For checking that click **settings icon** > **Settings** > search **Extension** > confirm the type of extension is allowed
 
@@ -249,13 +249,13 @@ uninstalled from Windows.
 ## FAQ
 
 **Q1: Is VS Code free?**
-**A:** Yes, VS Code is a free code editor, which runs on the macOS, Linux, and Windows operating systems.
+**A:** Yes, VS Code is a free code editor that runs on macOS, Linux, and Windows.
 
-**Q2: How to update the app?**
+**Q2: How do I update the app?**
 **A:** By default, VS Code automatically updates when new versions are released. To disable auto-updates, go to **File** > **Preferences** > **Settings** > search **Update: Mode** > change it from **default** to **none**.
 
 **Q3: Can I control which extensions are allowed to be installed?**
-**A:** Yes, by default, all extensions are allowed. You can set this to allow only specific ones. You can filter by publisher, extension, version, or platform. Then, block the others. To do this go to **Settings** (**Ctrl+,**) > **Extension settings**; set it as you prefer.  
+**A:** Yes, by default, all extensions are allowed. You can set this to allow only specific ones. You can filter by publisher, extension, version, or platform. Then, block the others. To do this, go to **Settings** (**Ctrl+,**) > **Extension settings**; set it as you prefer.  
 
 ## Support & Contact
 
