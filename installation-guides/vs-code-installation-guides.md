@@ -153,7 +153,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - [ ] Verify the version is correct: Open VS Code > click **Help** > **About**.
 
-- [ ] Ensure basic features like creating new file, extension, terminals, and settings works properly.
+- [ ] Ensure basic features like creating new files, extensions, terminals, and settings works properly.
 
 **Expected Result:** VS Code is installed and functioning correctly on your Windows system.
 
