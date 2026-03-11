@@ -54,14 +54,18 @@ This guide is intended for:
 
 ### Step 1: Visit the official website of VS Code
 
+Go to the official website of VS Code: https://code.visualstudio.com/
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-download.png" width="500px" />
+
 > ⚠️ **Warning:** Always download from the official 
 > website only. Avoid third-party download sites.
-
-Go to the official website of VS Code: https://code.visualstudio.com/
 
 ### Step 2: Download the installer file for Windows
 
 Click **Download for Windows**; wait for the download completion. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-download.png" width="500px" />
 
 > 💡 **Tip:** Note where the file is downloaded -
 > you will need it in the next step.
@@ -76,13 +80,19 @@ Click **Download for Windows**; wait for the download completion.
 
 Open the **Downloads folder** in your Windows.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-install.png" width="500px" />
+
 ### Step 2: Start the installation process
 
 Double click `VSCodeUserSetup-x64-1.109.5`
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-install..png" width="500px" />
+
 ### Step 3: Accept the License Agreement
 
 Click **I accept the agreement** after reading the License agreements > click **Next**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-install.png" width="500px" />
 
 > ⚠️ **Warning:** You must accept the agreement 
 > to proceed with installation.
@@ -91,6 +101,8 @@ Click **I accept the agreement** after reading the License agreements > click **
 
 Select the folder to which you want the VS Code to be installed > **Next**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-04-install.png" width="500px" />
+
 > 💡 **Tip:** Keep the default folder unless you 
 > have a specific reason to change it.
 
@@ -98,9 +110,13 @@ Select the folder to which you want the VS Code to be installed > **Next**.
 
 Choose the **Start Menu Folder** > click **Next**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-05-install.png" width="500px" />
+
 ### Step 6: Select Additional Task
 
 Tick the **Create a desktop icon** > **Next**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-06-install.png" width="500px" />
 
 > 💡 **Tip:** Also tick **Add to PATH** option — 
 > this allows you to open VS Code from the 
@@ -110,9 +126,14 @@ Tick the **Create a desktop icon** > **Next**.
 
 Click **Install** and wait for it to be completed.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-07-install.png" width="500px" />
+
 ### Step 8: Complete the Installation
 
 Click **Finish** to complete the installation. VS Code launches automatically. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-08-install.png" width="500px" />
+
 **Expected Result:** VS Code is installed on the system without any errors.
 
 ---
