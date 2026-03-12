@@ -144,7 +144,11 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 1. Click the **Setting Icon** on the left bottom > **Themes** > **Color Theme** (**Ctrl+K Ctrl+T**)
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-1.1-post-install.png" width="500px" />
+
 2. Select the theme you prefer from the given options.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-1.2-post-install.png" width="500px" />
 
 > 💡 **Tip:** Changing the color theme to dark is easier on the eyes during long coding sessions.
 
@@ -154,7 +158,11 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 1. Click on the **Profile icon** on the bottom left > **Sign in to use AI features**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-2.1-post install.png" width="500px" />
+
 2. Choose a method to sign in; provide the credentials asked by the method you choose.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-2.2-post-install.png" width="500px" />
 
 **Expected Result:** Successfully signed in to VS Code.
 
@@ -162,7 +170,11 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 1. Click on the **Extension icon** (**Ctrl+Shift+X**) on the **Left side bar**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-3.1-post-install.png" width="500px" />
+
 2. Search for the extension you want > click **Install**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-3.2-post-install.png" width="500px" />
 
 **Expected Result:** Extension is installed without any errors.
 
@@ -186,13 +198,23 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 1. Open **Start menu** > search **Control Panel** > click **Open**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-uninstall.png" width="500px" />
+
 2. Click on **Programs** > **Programs and Features**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-uninstall.png" width="500px" />
 
 3. Search **Microsoft Visual Studio Code**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-uninstall.png" width="500px" />
+
 4. Click on the **VS Code app icon** > Choose **Yes** for the uninstall confirmation pop-up.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-04-uninstall.png" width="500px" />
+
 5. Wait for the uninstallation to get completed > Click **Ok** for the confirmation 
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-05-uninstall.png" width="500px" />
 
 **Expected Result:** VS Code is uninstalled from Windows without any errors.
 
