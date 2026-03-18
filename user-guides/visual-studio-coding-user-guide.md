@@ -23,16 +23,8 @@ Read this guide from top to bottom if you are a beginner. If you are looking for
 
 Before you begin, ensure the following requirements are met:
 
-- [ ]  Windows 10 or later
-
-- [ ] Minimum 4GB RAM
-
-- [ ] ARM64 or x64 processor; Quad-core or better
-
-- [ ] 850 MB of disk space
-
-- [ ] Display resolution of 1366 x 768 or higher
-
+- [ ] Astable internet connection.
+ 
 - [ ] VS Code is installed on your device.  
 Download: <https://code.visualstudio.com/download>
 
@@ -347,4 +339,4 @@ This document is not affiliated with or endorsed by Microsoft Corporation.
 
 ---
 ---
-_Document Version: 1.0 | Last Reviewed: \[March 9, 2026\]_
+_Document Version: 1.0 | Last Reviewed: March 9, 2026_
