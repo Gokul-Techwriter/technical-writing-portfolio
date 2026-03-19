@@ -108,15 +108,27 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Enter your email address, and click **Create Free Account**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task-1.png" width="300px" />
+
 2. Set a name and password for your account > click **Create Free Account**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task1.png" width="300px" />
 
 3. Verify the email by using the code sent to it.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task1.png" width="300px" />
+
 4. Click **Allow access** in the **window security alert tab**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-task1.png" width="300px" />
 
 5. Enter your name and role for the workspace; write the request in the **request box**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-05-task1.png" width="300px" />
+
 6. Click **Get started with AI**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-06-task1.png" width="300px" />
 
 > 💡 **Tip:** Enter “Sent a GET request” in the request box for a start if you are confused.
 
@@ -128,11 +140,19 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Click **Create New** (**Ctrl+N**) or click on the **‘+’ icon** to create a new request.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task2.png" width="300px" />
+
 2. Choose **Save**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task2.png" width="300px" />
 
 3. Enter the title and select the **collection** to which you want to save the request.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task2.png" width="300px" />
+
 4. Click **Save**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-task2.png" width="300px" />
 
 **Expected Result:** The new request file is created successfully without any errors.
 
@@ -142,11 +162,19 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Click on the **Settings icon** > **App settings**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task3.png" width="300px" />
+
 2. Choose **Themes**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task3.png" width="300px" />
 
 3. Select the theme for daytime.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task3.png" width="300px" />
+
 4. Select the theme for nighttime.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-task3.png" width="300px" />
 
 > 💡 **Tip:** Changing the color theme to dark is easier on the eyes during long sessions.
 
@@ -158,9 +186,15 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Open **Settings** > **App settings**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task4.png" width="300px" />
+
 2. Choose **General** > scroll down to **Editor settings**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task4.png" width="300px" />
+
 3. Adjust the **Font size (px)** according to your preference.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task4.png" width="300px" />
 
 > 💡 **Tip:**  Always choose a font size that is comfortable to read for both you and your readers.
 
@@ -172,9 +206,15 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Open **Settings** > **Workspace settings**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task5.png" width="300px" />
+
 2. Click on the **Workspace name**  
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task5.png" width="300px" />
+
 3. Give a new name, and tap anywhere to save.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task5.png" width="300px" />
 
 **Expected Result:** The Workspace name is changed successfully without any errors.
 
@@ -184,9 +224,15 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 1. Open **Settings** > **Workspace settings**
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task6.png" width="300px" />
+
 2. Scroll down to the bottom > click **Delete workspace**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task6.png" width="300px" />
+
 3. Enter **Delete** in the box > click **Delete workspace**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task6.png" width="300px" />
 
 > ⚠️ **Warning:** Once a workspace gets deleted, there is no way to recover the workspace and its data.
 
