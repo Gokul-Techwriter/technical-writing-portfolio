@@ -84,9 +84,13 @@ Click on **Windows x64** to download the installer file and wait for its complet
 
 Go to the Downloads folder in your Windows.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-install.png" width="300px" />
+
 ### Step 2: Install the app
 
 Double-click Postman (x64) to start the installation process; Postman installs automatically.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-install.png" width="300px" />
 
 ### Step 3: Launch Postman
 
@@ -102,15 +106,27 @@ Postman opens automatically once installation is complete.
 
 1. Enter your email address, and click **Create Free Account**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task-1.png" width="300px" />
+
 2. Set a name and password for your account; click **Create Free Account**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task1.png" width="300px" />
 
 3. Verify the email by using the code sent to it.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task1.png" width="300px" />
+
 4. Click **Allow access** in the **window security alert tab**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-task1.png" width="300px" />
 
 5. Enter your name and role for the workspace; write the request in the **request box**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-05-task1.png" width="300px" />
+
 6. Click **Get started with AI**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-06-task1.png" width="300px" />
 
 > 💡 **Tip:** Enter “Sent a GET request” in the request box for a start if you are confused.
 
