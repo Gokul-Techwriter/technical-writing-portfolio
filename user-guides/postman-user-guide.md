@@ -38,9 +38,13 @@ Download: https://www.postman.com/downloads/
 
 Double-click the **Postman icon** on your desktop or search the app name on  **Start menu** and click **Open**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-launch.png" width="300px" />
+
 ### Step 2: Explore the Welcome Screen
 
 Go through the Sign-up procedure, elements, icons, and the instructions displayed on the screen after opening the app for the first time.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-explore.png" width="300px" />
 
 ### Step 3: Understand the Interface
 
@@ -48,14 +52,23 @@ There are 5 main elements on the left sidebar:
 
 - **Collections:** It enables users to save all the API requests, keep them organized, and share them with team members or anyone.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-3.1-interface.png" width="300px" />
+
 - **Environments:** It allows users to set variables that can be adjusted based on the work context in Postman.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-3.2-interface.png" width="300px" />
 
 - **Spec Hub:** It enables users to design their API in an OpenAPI 3.0 or AsyncAPI 2.0 specification.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-3.3-interface.png" width="300px" />
+
 - **Flows:** It is a visual, low-code tool designed to make API workflows faster and easier.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-3.4-interface.png" width="300px" />
 
 - **Mock servers:** They allow users to imitate an API for testing before setting up a real API server.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-3.5-interface.png" width="300px" />
 
 > 💡 **Tip:** You can also use a Google account/GitHub account, and you can do Single Sign-On to create an account.
 
