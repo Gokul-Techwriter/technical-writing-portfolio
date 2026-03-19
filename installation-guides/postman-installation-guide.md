@@ -136,9 +136,15 @@ Postman opens automatically once installation is complete.
 
 1. Click on the **drop-down icon** on the top left.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-2.1.png" width="300px" />
+
 2. Choose **Create**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-2.2.png" width="300px" />
+
 3. Tick according to your preference; click **Next**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-2.3.png" width="300px" />
 
 4. Enter the name for your workspace > select the **Workspace type**; choose the type of **Manage access**.
 
@@ -152,11 +158,19 @@ Postman opens automatically once installation is complete.
 
 1. Click on the **Settings icon** > **App settings**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task3.png" width="300px" />
+
 2. Choose **Themes**
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task3.png" width="300px" />
 
 3. Select the theme for daytime.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-task3.png" width="300px" />
+
 4. Select the theme for nighttime.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-task3.png" width="300px" />
 
 > 💡 **Tip:** Changing the color theme to dark is easier on the eyes during long sessions.
 
