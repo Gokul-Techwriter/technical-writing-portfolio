@@ -8,6 +8,22 @@ The focus of this portfolio is clarity, usability, and logical content organizat
 
 ---
 
+## Featured Documents
+
+### User Guides
+
+- [VS Code User Guide](user-guides/vscode-user-guide.md)
+  
+- [Postman User Guide](user-guides/postman-user-guide.md)
+
+### Installation Guides
+
+- [VS Code Installation Guide](installation-guides/vscode-installation-guide.md)
+
+- [Postman Installation Guide](installation-guides/postman-installation-guide.md)
+
+  ---
+  
 ## Documentation Categories
 
 ### User Guides
@@ -27,20 +43,6 @@ Structured issue-resolution documentation identifying common problems, root caus
 Concise question-and-answer documentation addressing frequently asked user concerns and common misconceptions.
 
 ---
-
-## Featured Documents
-
-### User Guides
-
-- [VS Code User Guide](user-guides/vscode-user-guide.md)
-  
-- [Postman User Guide](user-guides/postman-user-guide.md)
-
-### Installation Guides
-
-- [VS Code Installation Guide](installation-guides/vscode-installation-guide.md)
-
-- [Postman Installation Guide](installation-guides/postman-installation-guide.md)
 
 ## Documentation Approach
 
