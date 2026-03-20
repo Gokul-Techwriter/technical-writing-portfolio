@@ -70,8 +70,10 @@ This document is intended for:
 **Q1. How do I log into Gmail (Web version)?**
 
 **A:**
-1. Open Gmail (Web version) on any browser
-2. Enter a valid Google Account and its password for sign-in
+1. Open **Gmail (Web version)** on any browser
+2. Enter your **email address** > click **Next**
+3. Enter your **password** > click **Next**
+4. Click **Sign in**
 
 **Q2. Why can't I log in to my account?**
 
@@ -82,10 +84,10 @@ This document is intended for:
 **Q1. How do I send an email through Gmail (Web version)?**
 
 **A:**
-1. Click Compose.
-2. Enter the recipient's email address in the To field.
+1. Click **Compose**.
+2. Enter the recipient's email address in the **To** field.
 3. Enter the subject and message.
-4. Click Send.
+4. Click **Send**.
 
 **Q2. How do I view the messages I received?**
 
@@ -96,17 +98,17 @@ This document is intended for:
 **Q1. How do I change the maximum page size?**
 
 **A:**
-1. Click Settings.
-2. Select See all settings.
-3. Under the General tab, locate Maximum page size.
+1. Click **Settings**.
+2. Select **See all settings**.
+3. Under the **General tab**, locate **Maximum page size**.
 4. Select the preferred number of conversations per page.
-5. Click Save Changes.
+5. Click **Save Changes**.
 
 **Q2. How do I archive a mail?**
 
 **A:**
 1. Select the mail you want to archive
-2. Right-click and select Archive
+2. Right-click and select **Archive**
 
 ## 8. Troubleshooting FAQs
 
@@ -116,7 +118,7 @@ This document is intended for:
 
 **Q2. Why can't I receive emails?**
 
-**A:** Email receiving failure may occur due to insufficient space on the Google Account. Delete unnecessary emails and permanently remove them from the Trash to free up storage space.
+**A:** Email receiving failure may occur due to insufficient space on the Google Account. Delete unnecessary emails and permanently remove them from the **Trash** to free up storage space.
 
 ## 9. Privacy & Security FAQs
 
