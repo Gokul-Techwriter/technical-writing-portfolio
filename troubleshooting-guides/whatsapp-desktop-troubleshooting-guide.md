@@ -643,7 +643,7 @@ This section answers common questions related to WhatsApp Desktop installation a
 
 **A:** C:\Users\\<Username\>\AppData\Roaming\WhatsApp Desktop\logs
 
-## 10. References**
+## 10. References
 
 - WhatsApp-Help Centre:
 
