@@ -11,19 +11,23 @@ The focus of this portfolio is clarity, usability, and logical content organizat
 ## Featured Documents
 
 ### User Guides
-
-- [VS Code User Guide](user-guides/vscode-user-guide.md)
-  
+- [VS Code User Guide](user-guides/visual-studio-coding-user-guide.md)
 - [Postman User Guide](user-guides/postman-user-guide.md)
 
 ### Installation Guides
-
-- [VS Code Installation Guide](installation-guides/vscode-installation-guide.md)
-
+- [VS Code Installation Guide](installation-guides/vs-code-installation-guides.md)
 - [Postman Installation Guide](installation-guides/postman-installation-guide.md)
 
-  ---
-  
+### Troubleshooting Guides
+- [WhatsApp Desktop Troubleshooting Guide](troubleshooting-guides/whatsapp-desktop-troubleshooting-guide.md)
+- [Zoom Desktop Troubleshooting Guide](troubleshooting-guides/zoom-desktop-troubleshooting-guide.md)
+
+### FAQs
+- [Gmail Web FAQ](faqs/gmail-web-faq.md)
+- [Google Chrome FAQ](faqs/google-chrome-faq.md)
+
+---
+
 ## Documentation Categories
 
 ### User Guides
