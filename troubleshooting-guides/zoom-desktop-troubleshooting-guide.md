@@ -13,24 +13,24 @@
 
 |**FIELD**|**DETAILS**|
 |---------|-----------|
-| Document Title | Troubleshooting Guide: Zoom Desktop App
-| Document ID | TG-ZOOM-DOC-001
-| Created Date | February 14, 2026
-| Last Updated | February 14, 2026
-| Status | Sample
+| Document Title | Troubleshooting Guide: Zoom Desktop App |
+| Document ID | TG-ZOOM-DOC-001 |
+| Created Date | February 14, 2026 |
+| Last Updated | February 14, 2026 |
+| Status | Final |
 
 ## Revision History Table
 
 |**VERSION**|**DATE**|**AUTHOR**|**CHANGES MADE**|
 |-----------|--------|----------|----------------|
-| 1.0 | February 14, 2026 | Gokul S Anand | Initial draft created
-| 1.1 | February 14, 2026 | Gokul S Anand | Updated troubleshooting workflow; improved escalation process; corrected technical inaccuracies
+| 1.0 | February 14, 2026 | Gokul S Anand | Initial draft created |
+| 1.1 | February 14, 2026 | Gokul S Anand | Updated troubleshooting workflow; improved escalation process; corrected technical inaccuracies |
 
 Disclaimer: This troubleshooting guide is created as a technical writing portfolio sample, and this document is not affiliated with Zoom Video Communications, Inc.
 
 ---
 
-## 1.Purpose
+## 1. Purpose
 
 This guide provides structured troubleshooting procedures for common issues encountered in the Zoom Desktop App.
 
@@ -81,7 +81,7 @@ Before you begin, ensure the following basic requirements are met:
 4. Validate the resolution by confirming that the issue is resolved and the user can successfully perform the expected task.  
 5. Escalate the issue if unresolved by collecting relevant screenshots and log files and escalating according to the escalation matrix.
 
-## 6.Troubleshooting Issues and Solutions
+## 6. Troubleshooting Issues and Solutions
 
 **Issue ID:** TG-ZOOM-001  
 **Issue Name:** Installation failed
