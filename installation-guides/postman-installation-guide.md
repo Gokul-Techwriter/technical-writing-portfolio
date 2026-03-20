@@ -196,19 +196,19 @@ Postman opens automatically once installation is complete.
 
 1. Open **Start menu** > search **Control Panel** > click **Open**
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-.png" width="300px" />
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-uninstall.png" width="300px" />
 
 2. Click on **Programs** > **Programs and Features**
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-.png" width="300px" />
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-uninstall.png" width="300px" />
 
 3. Search **Postman x64 12.2.2** 
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-.png" width="300px" />
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-uninstall.png" width="300px" />
 
 4. Right-click on the **Postman x64 12.2.2** > Click **Uninstall**
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-.png" width="300px" />
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-uninstall.png" width="300px" />
  
 **Expected Result:** Postman is uninstalled from Windows without any errors.
 
