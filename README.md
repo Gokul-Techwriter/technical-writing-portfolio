@@ -42,8 +42,8 @@ Each document is written with attention to usability, readability, and structure
 ## Tools Used
 
 - Markdown
-- Google Docs
-- Canva (for structured visual formatting)
+- VS Code
+- GitHub
 
 ---
 
