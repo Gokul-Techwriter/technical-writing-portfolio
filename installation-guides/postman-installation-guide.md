@@ -148,7 +148,11 @@ Postman opens automatically once installation is complete.
 
 4. Enter the name for your workspace > select the **Workspace type**; choose the type of **Manage access**.
 
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-2.4.png" width="300px" />
+
 5. Click **Create**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-2.5.png" width="300px" />
 
 **Expected Result:** New workspace is created successfully.
 
@@ -282,12 +286,15 @@ Postman opens automatically once installation is complete.
 ## FAQ
 
 **Q1: Is the Postman app available on any mobile device?**
+
 **A:** No, the Postman app is not officially available on mobile devices, but you can access the web version on mobile.
 
 **Q2: Can I manually update the Postman app?**
+
 **A:** Yes, for updating the app manually, click on the **Menu icon** (**Three lines**) > **Help** > **Check for Updates** > if a new update is available, click **Update**.
 
 **Q3: The app is not opening. What should I do?**
+
 **A:** This may happen due to the insufficient system requirements/corrupted installer file. Confirm your system meets the minimum requirements and re-download the latest installer file from the official website.
 
 ## Support & Contact
