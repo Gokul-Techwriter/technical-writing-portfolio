@@ -4,26 +4,32 @@
 
 This repository contains structured technical documentation samples created for various desktop and web applications. The portfolio demonstrates task-based writing, clear information architecture, and consistent formatting across multiple documentation types.
 
-The focus of this portfolio is clarity, usability, and logical content organization aligned with real-world documentation standards.
-
 ---
 
 ## Featured Documents
 
 ### User Guides
+
 - [VS Code User Guide](user-guides/visual-studio-coding-user-guide.md)
+
 - [Postman User Guide](user-guides/postman-user-guide.md)
 
 ### Installation Guides
+
 - [VS Code Installation Guide](installation-guides/vs-code-installation-guides.md)
+
 - [Postman Installation Guide](installation-guides/postman-installation-guide.md)
 
 ### Troubleshooting Guides
+
 - [WhatsApp Desktop Troubleshooting Guide](troubleshooting-guides/whatsapp-desktop-troubleshooting-guide.md)
+
 - [Zoom Desktop Troubleshooting Guide](troubleshooting-guides/zoom-desktop-troubleshooting-guide.md)
 
 ### FAQs
+
 - [Gmail Web FAQ](faqs/gmail-web-faq.md)
+
 - [Google Chrome FAQ](faqs/google-chrome-faq.md)
 
 ---
@@ -32,25 +38,23 @@ The focus of this portfolio is clarity, usability, and logical content organizat
 
 ### User Guides
 
-Task-oriented documentation designed to help end users navigate and use application features effectively. These guides follow a structured, step-by-step approach to improve usability and reduce user friction.
+Task-oriented documentation designed to help end users navigate and use application features effectively.
 
 ### Installation Guides
 
-Process-driven documentation outlining prerequisites, installation procedures, configuration steps, and post-installation validation.
+Process-driven documentation outlining prerequisites, installation procedures, and post-installation validation.
 
 ### Troubleshooting Guides
 
-Structured issue-resolution documentation identifying common problems, root causes, and clear corrective actions to support efficient problem-solving.
+Structured issue-resolution documentation identifying common problems, root causes, and corrective actions.
 
 ### FAQs
 
-Concise question-and-answer documentation addressing frequently asked user concerns and common misconceptions.
+Concise question-and-answer documentation addressing frequently asked user concerns.
 
 ---
 
 ## Documentation Approach
-
-The documentation in this portfolio follows:
 
 - Clear heading hierarchy
 
@@ -63,8 +67,6 @@ The documentation in this portfolio follows:
 - Logical information flow
 
 - Minimal ambiguity and redundancy
-
-Each document is written with attention to usability, readability, and structured organization.
 
 ---
 
@@ -82,17 +84,18 @@ Each document is written with attention to usability, readability, and structure
 
 ## Intended Audience
 
-These documentation samples are written for:
-
 - End users
 
 - Beginner to intermediate software users
 
-- Support and IT teams requiring structured reference documentation
+- Support and IT teams
 
 ---
 
 ## License
 
-This work is licensed under CC BY-NC 4.0.  
-All documentation samples are for demonstration purposes only.
+This work is licensed under CC BY-NC 4.0.All documentation samples are for demonstration purposes only.
+
+---
+
+*Document Version: 1.0 | Last Reviewed: March 20, 2026*
