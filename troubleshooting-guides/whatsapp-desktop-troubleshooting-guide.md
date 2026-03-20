@@ -13,18 +13,18 @@
 
 |**FIELD**|**DETAILS**|
 |---------|-----------|
-| Document Title | Troubleshooting Guide: WhatsApp Desktop
-| Document ID | TG-WHATSAPP-DOC-001
-| Created Date | February 10, 2026 
-| Last Updated | February 10, 2026
-| Status | Sample
+| Document Title | Troubleshooting Guide: WhatsApp Desktop |
+| Document ID | TG-WHATSAPP-DOC-001 |
+| Created Date | February 10, 2026 | 
+| Last Updated | February 10, 2026 |
+| Status | Final |
 
 ## Revision History Table
 
 |**VERSION**|**DATE**|**AUTHOR**|**CHANGES MADE**|
 |-----------|--------|----------|----------------|
-| 1.0 | February 10, 2026  | Gokul S Anand | Initial draft created
-| 1.1 | February 10, 2026  | Gokul S Anand | Updated troubleshooting workflow, improved escalation process, and corrected technical inaccuracies
+| 1.0 | February 10, 2026  | Gokul S Anand | Initial draft created |
+| 1.1 | February 10, 2026  | Gokul S Anand | Updated troubleshooting workflow, improved escalation process, and corrected technical inaccuracies |
 
 Disclaimer: This troubleshooting guide is created as a technical writing portfolio sample and is not affiliated with WhatsApp Meta Platforms, Inc.
 
@@ -611,9 +611,9 @@ Before you begin, ensure the following basic requirements are met:
 
 |**LEVEL**|**TEAM**|**WHEN TO ESCALATE**|**ACTION TAKEN**|
 |---------|--------|--------------------|----------------|
-| L1 | IT Help desk | Issue unresolved after basic troubleshooting | Perform initial diagnostics
-| L2 | Application Support | Issue impacts multiple users or departments | Analyze logs and configurations 
-| L3 | Vendor Support ( Meta ) | Technical issues or confirmed service outage | Logs, error codes, and reproduction steps documented and escalated to vendor support
+| L1 | IT Help desk | Issue unresolved after basic troubleshooting | Perform initial diagnostics |
+| L2 | Application Support | Issue impacts multiple users or departments | Analyze logs and configurations |
+| L3 | Vendor Support ( Meta ) | Technical issues or confirmed service outage | Logs, error codes, and reproduction steps documented and escalated to vendor support |
 
 ## 8. Known Limitations and Issues
 
