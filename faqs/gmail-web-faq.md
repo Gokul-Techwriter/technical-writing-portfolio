@@ -67,7 +67,7 @@ This document is intended for:
 
 ## 5. Account & Login FAQs
 
-**Q1. How to log into Gmail (Web version)?**
+**Q1. How do I log into Gmail (Web version)?**
 
 **A:**
 1. Open Gmail (Web version) on any browser
@@ -79,7 +79,7 @@ This document is intended for:
 
 ## 6. Email Sending & Receiving FAQs
 
-**Q1. How to send an email through Gmail (Web version)?**
+**Q1. How do I send an email through Gmail (Web version)?**
 
 **A:**
 1. Click Compose.
@@ -93,7 +93,7 @@ This document is intended for:
 
 ## 7. Features FAQs
 
-**Q1. How to change the maximum page size?**
+**Q1. How do I change the maximum page size?**
 
 **A:**
 1. Click Settings.
@@ -102,7 +102,7 @@ This document is intended for:
 4. Select the preferred number of conversations per page.
 5. Click Save Changes.
 
-**Q2. How to archive a mail?**
+**Q2. How do I archive a mail?**
 
 **A:**
 1. Select the mail you want to archive
