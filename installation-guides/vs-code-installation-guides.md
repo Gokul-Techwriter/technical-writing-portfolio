@@ -292,12 +292,15 @@ uninstalled from Windows.
 ## FAQ
 
 **Q1: Is VS Code free?**
+
 **A:** Yes, VS Code is a free code editor, that runs on the macOS, Linux, and Windows operating systems.
 
 **Q2: How to update the app?**
+
 **A:** By default, VS Code automatically updates when new versions are released. To disable auto-updates, go to **File** > **Preferences** > **Settings** > search **Update: Mode** > change it from **default** to **none**.
 
 **Q3: Can I control which extensions are allowed to be installed?**
+
 **A:** Yes, by default, all extensions are allowed. You can set this to allow only specific ones. You can filter by publisher, extension, version, or platform. Then, block the others. To do this, go to **Settings** (**Ctrl+,**) > **Extension settings**; set it as you prefer.  
 
 ## Support & Contact
