@@ -76,11 +76,11 @@ This document is intended for:
 
 ## 5. Installation FAQs
 
-**Q1. How do I install the application?**
+**Q1. How do I install Google Chrome on Windows?**
 
 **A:**
 1. Go to the official website of Google Chrome.
-2. Click Download Chrome and wait for the download to complete.
+2. Click **Download Chrome** and wait for the download to complete.
 3. Run the installer file to install Google Chrome on your system.
 
 **Q2. Why does installation fail?**
@@ -89,9 +89,13 @@ This document is intended for:
 
 ## 6. Account & Login FAQs
 
-**Q1. How to log in to Google Chrome?**
+**Q1. How do I log in to Google Chrome?**
 
-**A:** Enter your email address and password to log in.
+**A:**
+1. Click the **Profile icon** in the top right corner
+2. Click **Sign in to Chrome**
+3. Enter your **email address** > click **Next**
+4. Enter your **password** > click **Next**
 
 **Q2. Why am I unable to log in?**
 
@@ -102,35 +106,35 @@ This document is intended for:
 **Q1. How do I set Chrome as the default browser?**
 
 **A:**
-1. Open Chrome > Settings > Default browser
-2. Click Make Default to set Chrome as the default browser.
+1. Open **Chrome** > **Settings** > **Default browser**
+2. Click **Make Default** to set Chrome as the default browser.
 
-**Q2. How to clear the cache?**
+**Q2. How do I clear the cache?**
 
 **A:** For clearing cache:
 
 - On desktop (Windows/macOS/Linux):
-  1. Open Chrome > Settings
-  2. Go to Privacy and security > Clear browsing data
-  3. Select Cached images and files > Click Clear data
+  1. Open **Chrome** > **Settings**
+  2. Go to **Privacy and security** > **Clear browsing data**
+  3. Select **Cached images and files** > Click **Clear data**
 
 - On mobile:
 
   Android:
   
-  1. Open Chrome
-  2. Tap the three-dot menu (⋮) > Settings
-  3. Tap Privacy and security > Clear browsing data
-  4. Select Cached images and files
-  5. Tap Clear data
+  1. Open **Chrome**
+  2. Tap on the **three-dot menu** (**⋮**) > **Settings**
+  3. Tap **Privacy and security** > **Clear browsing data**
+  4. Select **Cached images and files**
+  5. Tap **Clear data**
 
   iOS:
   
-  1. Open Chrome
-  2. Tap the three-dot menu > Settings
-  3. Tap Privacy > Clear Browsing Data
-  4. Select Cached Images and Files
-  5. Tap Clear Browsing Data to confirm
+  1. Open **Chrome**
+  2. Tap on the **three-dot menu** (**⋮**) > **Settings**
+  3. Tap **Privacy** > **Clear Browsing Data**
+  4. Select **Cached Images and Files**
+  5. Tap **Clear Browsing Data** to confirm
 
 ## 8. Troubleshooting FAQs
 
@@ -140,7 +144,11 @@ This document is intended for:
 
 **Q2. Why is the application running slowly?**
 
-**A:** Slow performance may occur due to low system resources or outdated software versions.
+**A:** Slow performance may occur due to too many 
+open tabs, outdated Chrome version, or insufficient 
+system memory. Try closing unused tabs, clearing 
+cache, or updating Chrome via **Settings** > 
+**Help** > **About Google Chrome**.
 
 ## 9. Security & Privacy FAQs
 
