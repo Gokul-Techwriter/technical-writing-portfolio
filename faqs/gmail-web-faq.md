@@ -141,5 +141,5 @@ For further assistance:
 | Gmail Help | https://support.google.com/mail/?hl=en#topic=7065107 
 
 ---
----
-*Technical Writing Portfolio | Gokul S Anand | 2026*
+
+*Document Version: 1.0 | Last Reviewed: February 23, 2026*
