@@ -26,7 +26,7 @@
 | 1.0 | February 14, 2026 | Gokul S Anand | Initial draft created |
 | 1.1 | February 14, 2026 | Gokul S Anand | Updated troubleshooting workflow; improved escalation process; corrected technical inaccuracies |
 
-Disclaimer: This troubleshooting guide is created as a technical writing portfolio sample, and this document is not affiliated with Zoom Video Communications, Inc.
+> ⚠ **Disclaimer:** This troubleshooting guide is created as a technical writing portfolio sample, and this document is not affiliated with Zoom Video Communications, Inc.
 
 ---
 
@@ -45,15 +45,14 @@ This troubleshooting guide covers common issues related to the Zoom Desktop App.
 - Video and audio issues.  
 - Meeting and screen sharing issues.
 
-
 ### 2.2 Not Included
 
 This troubleshooting guide does not cover the following:
 
-* Zoom web app issues.  
-* Mobile app troubleshooting.  
-* Administrative settings managed through the Zoom Web Portal.  
-* Service outage diagnosis — confirmed outages must be escalated.
+- Zoom web app issues.  
+- Mobile app troubleshooting.  
+- Administrative settings managed through the Zoom Web Portal.  
+- Service outage diagnosis — confirmed outages must be escalated.
 
 ## 3. Intended Audience
 
@@ -343,7 +342,6 @@ Before you begin, ensure the following basic requirements are met:
 3. Restart the system.  
 4. Open the app and join the meeting again.  
    
-
 **Expected result:** The app runs without crashing.  
 
 ---
@@ -625,5 +623,4 @@ macOS: /Users/\<Username\>/Library/Logs/zoom.us
 
 [https://support.zoom.com/hc/en/article?id=zm\_kb\&sysparm\_article=KB0068732](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068732)
 
----
 ---
