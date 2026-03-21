@@ -624,3 +624,5 @@ macOS: /Users/\<Username\>/Library/Logs/zoom.us
 [https://support.zoom.com/hc/en/article?id=zm\_kb\&sysparm\_article=KB0068732](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068732)
 
 ---
+
+*Document Version: 1.0 | Last Reviewed: February 14, 2026*
