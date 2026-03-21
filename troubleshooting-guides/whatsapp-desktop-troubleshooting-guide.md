@@ -653,3 +653,5 @@ This section answers common questions related to WhatsApp Desktop installation a
 [https://www.whatsapp.com/download](https://www.whatsapp.com/download)  
 
 ---
+
+*Document Version: 1.0 | Last Reviewed: February 10, 2026*
