@@ -171,5 +171,5 @@ For further assistance:
 | Official support| https://support.google.com/chrome/?hl=en#topic=7439538   |
 
 ---
----
-*Technical Writing Portfolio | Gokul S Anand | 2026*
+
+*Document Version: 1.0 | Last Reviewed: February 21, 2026*
