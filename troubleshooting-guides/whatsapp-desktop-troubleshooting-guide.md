@@ -2,7 +2,7 @@
 
 ---
 
-- **Document Type:** Troubleshooting Guide  
+- **Document Type :** Troubleshooting Guide  
 - **Platform:** Windows  
 - **Product:** WhatsApp Desktop for Windows  
 - **Version Covered:** 2.2605.101.0  
@@ -26,7 +26,7 @@
 | 1.0 | February 10, 2026  | Gokul S Anand | Initial draft created |
 | 1.1 | February 10, 2026  | Gokul S Anand | Updated troubleshooting workflow, improved escalation process, and corrected technical inaccuracies |
 
-Disclaimer: This troubleshooting guide is created as a technical writing portfolio sample and is not affiliated with WhatsApp Meta Platforms, Inc.
+> ⚠️ **Disclaimer:** This troubleshooting guide is created as a technical writing portfolio sample and is not affiliated with WhatsApp Meta Platforms, Inc.
 
 ---
 
@@ -138,7 +138,7 @@ Before you begin, ensure the following basic requirements are met:
 
 **Symptoms:**
 
-- Messages sent or received on the mobile device do not appear on the desktop.  
+- Messages sent or received on the mobile device do not appear on the desktop.
 - There is a significant delay in message delivery.  
 - Chat history is incomplete on the desktop.
 
@@ -242,16 +242,16 @@ Before you begin, ensure the following basic requirements are met:
 
 **Symptoms:**
 
-* The application closes on its own without any warning.  
-* No error message appears when it's closed.  
-* The crash occurs repeatedly during normal use.
+- The application closes on its own without any warning.  
+- No error message appears when it's closed.  
+- The crash occurs repeatedly during normal use.
 
 **Possible causes:**
 
-* Insufficient system RAM  
-* Software conflicts with other installed applications.  
-* Corrupted application data or cache.  
-* Outdated application versions
+- Insufficient system RAM  
+- Software conflicts with other installed applications.  
+- Corrupted application data or cache.  
+- Outdated application versions
 
 **Resolution steps:**
 
@@ -338,7 +338,6 @@ Before you begin, ensure the following basic requirements are met:
 4. Ensure the mobile device remains connected to the internet to maintain the session.
 
 **Expected result:** The user successfully logged back in to WhatsApp Desktop.  
-
 ---
 
 **Issue ID:** TG-WHATSAPP-011  
@@ -654,6 +653,3 @@ This section answers common questions related to WhatsApp Desktop installation a
 [https://www.whatsapp.com/download](https://www.whatsapp.com/download)  
 
 ---
----
-
-
