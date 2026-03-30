@@ -40,6 +40,7 @@ This document provides answers to frequently asked questions about Gmail (Web ve
 ## 2. Scope
 
 This document covers questions related to:
+
 - Gmail (Web version) and its use
 - Email sending and receiving
 - Account and login
