@@ -7,6 +7,7 @@ This folder contains API reference documentation built from real API testing usi
 | Document | API | Endpoints Covered |
 |----------|-----|-------------------|
 | [notion-api-documentation.md](./notion-api-documentation.md) | Notion API | 8 endpoints |
+| [notion-api-documentation.pdf](./notion-api-documentation.pdf) | Notion API | 8 endpoints |
 
 ## What's Inside Each Document
 
