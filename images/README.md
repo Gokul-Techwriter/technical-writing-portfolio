@@ -1,4 +1,4 @@
-#Image Folder
+# Image Folder
 
 This folder stores screenshots used across documentation guides.
 
