@@ -34,9 +34,9 @@ The portfolio demonstrates task-based writing, clear information architecture, a
 | Google Chrome FAQ | [View](faqs/google-chrome-faq.md) | [Download](faqs/google-chrome-faq.pdf) |
 
 ### API Documentation
-| Document | Platform | Format |
+| Document | Markdown | PDF |
 |----------|----------|--------|
-| Notion API Documentation | Notion | Markdown / Structured API Docs |
+| Notion API Documentation | **[View](https://github.com/Gokul-Techwriter/technical-writing-portfolio/blob/main/api-documentation/notion-api-documentation.md)** | **[Download](https://github.com/Gokul-Techwriter/technical-writing-portfolio/blob/main/api-documentation/notion-api-documentation.pdf)** |
 
 ---
 
