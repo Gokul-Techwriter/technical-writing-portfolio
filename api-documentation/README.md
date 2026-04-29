@@ -4,6 +4,8 @@ This folder contains API reference documentation built from real API testing usi
 
 ## Documents
 
+### **1. Notion**
+
 | Document | API | Endpoints Covered |
 |----------|-----|-------------------|
 | [notion-api-documentation.md](./notion-api-documentation.md) | Notion API | 8 endpoints |
@@ -25,13 +27,6 @@ This folder contains API reference documentation built from real API testing usi
 - Notion Developer Playground — live API testing
 - Markdown — documentation authoring
 - GitHub — version control and publishing
-
-## APIs Documented
-
-### Notion API
-- Base URL: `https://api.notion.com/v1`
-- Authentication: Bearer token
-- Endpoints: POST /pages, GET /pages/:id, PATCH /pages/:id, POST /databases/:id/query, GET /databases/:id, GET /blocks/:id/children, PATCH /blocks/:id, DELETE /blocks/:id
 
 ## Note
 
