@@ -9,6 +9,12 @@ The portfolio demonstrates task-based writing, clear information architecture, a
 
 ## Featured Documents
 
+### API Documentation
+| Document | Markdown | PDF |
+|----------|----------|--------|
+| Postman API Documentation | [View](api-documentation/postman-api-documentation.md) | [Download](api-documentation/postman-api-documentation.pdf) |
+| Notion API Documentation | [View](api-documentation/notion-api-documentation.md) | [Download](api-documentation/notion-api-documentation.pdf) |
+
 ### User Guides
 | Document | Markdown | PDF |
 |----------|----------|-----|
@@ -33,11 +39,6 @@ The portfolio demonstrates task-based writing, clear information architecture, a
 | Gmail Web FAQ | [View](faqs/gmail-web-faq.md) | [Download](faqs/gmail-web-faq.pdf) |
 | Google Chrome FAQ | [View](faqs/google-chrome-faq.md) | [Download](faqs/google-chrome-faq.pdf) |
 
-### API Documentation
-| Document | Markdown | PDF |
-|----------|----------|--------|
-| Notion API Documentation | **[View](https://github.com/Gokul-Techwriter/technical-writing-portfolio/blob/main/api-documentation/notion-api-documentation.md)** | **[Download](https://github.com/Gokul-Techwriter/technical-writing-portfolio/blob/main/api-documentation/notion-api-documentation.pdf)** |
-| Postman API Documentation | **[View]( )** | **[Download}( )** |
 ---
 
 ## Documentation Categories
