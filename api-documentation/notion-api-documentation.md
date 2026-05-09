@@ -2,13 +2,13 @@
 
 ---
 
-|**FIELD**|**DETAILS**|
-|---------|-----------|
-| API Name | Notion |
-| Version | 2026-03-11 |
-| Base URL | https://api.notion.com/v1 |
-| Author | Gokul S Anand |
-| Last Updated | April 23, 2026 |
+| **FIELD** | **DETAILS** |
+|-----------|-------------|
+| API Name  | Notion      |
+| Version   | 2026-03-11  |
+| Base URL  | `https://api.notion.com/v1` |
+| Author    | Gokul S Anand |
+| Last Updated | May 9, 2026 |
 
 ---
 
@@ -20,7 +20,7 @@ Notion is a global platform developed by Notion.inc for documentation, project m
 
 ## Base URL
 
-https://api.notion.com/v1
+`https://api.notion.com/v1`
 
 All endpoints are relative to this base URL.
 
@@ -32,15 +32,15 @@ To get an integration token:
 
 ### Step 1: Create an integration
 
-Go to https://www.notion.so/my-integrations > create integration > copy the secret_ token
+Go to `https://www.notion.so/my-integrations` > create integration > copy the secret_token
 
 ### Step 2: Add the integration to your page
 
-Open any Notion page > Settings > Connections > select your integration
+Open any **Notion page** > **Settings** > **Connections** > select your integration
 
-Format of the integration token: secret_xxxxxxxxx
+Format of the integration token: `secret_xxxxxxxxx`
 
-Authorization: Bearer secret_xxxxx
+Authorization: `Bearer secret_xxxxx`
 
 > ⚠️ **Warning:** Never share your API key publicly.
 > Keep it secure at all times.
@@ -53,13 +53,13 @@ The rate limit for incoming requests per integration is an average of three requ
 
 ---
 
-## Request Format
+## Headers
 
-|**HEADER**|**VALUE**|
-|----------|---------|
-| Content-Type | application/json |
-| Authorization| Bearer YOUR_KEY |
-| Notion-Version | 2026-03-11 |
+| **HEADER** | **VALUE** |
+|------------|-----------|
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
  
 ---
 
@@ -67,8 +67,8 @@ The rate limit for incoming requests per integration is an average of three requ
 
 All responses return JSON:
 
-
 ```json
+
 {
     "object": "page",
     "id": "34051562-df03-81d0-b27f-e1622a0bf74f",
@@ -82,6 +82,7 @@ All responses return JSON:
     "is_archived": false,
     "url": "https://www.notion.so/new-notion-34051562df0381d0b27fe1622a0bf74f"
 }
+
 ```
 
 ---
@@ -90,23 +91,24 @@ All responses return JSON:
 
 ### 1. Create a Page
 
-Creates a new page inside the parent pages with properties.
+Creates a new page inside the parent page with properties.
 
 #### Endpoint:
 
-POST /pages
+`POST /pages`
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Request:
 
 ```json
+
 {
   "parent": {
     "page_id": "34051562df03806ab9d7cd40439aef35"
@@ -117,22 +119,24 @@ POST /pages
     }
   }
 }
+
 ```
 
 #### Request Fields:
 
-|**FIELDS**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
-|----------|--------|------------|---------------|
-| `parent` | object | Yes | Information about the page’s parent. | 
-| `page_id` | string | Yes | Unique identifier of the parent page. |
-| `properties` | object | Yes | Property values of this page. |
-| `title` | object | Yes | A type object that contains data specific to the page being created |
-| `text` | array | Yes | Array of text objects containing the page content |
-| `content` | string | Yes | The content of title of the creating page |
+| **FIELDS** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
+|------------|----------|--------------|-----------------|
+| `parent`   | object   |  Yes         | Information about the page’s parent. | 
+| `page_id`  | string   |  Yes         | Unique identifier of the parent page. |
+| `properties` | object |  Yes         | Property values of this page. |
+| `title`    | object   |  Yes         | A type object that contains data specific to the page being created |
+| `text`     | array    |  Yes         | Array of text objects containing the page content |
+| `content`  | string   |  Yes         | The text content of the page title |
 
 #### Response:
 
 ```json
+
 {
     "object": "page",
     "id": "34051562-df03-81d0-b27f-e1622a0bf74f",
@@ -184,17 +188,19 @@ POST /pages
     "public_url": null,
     "archived": false
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"page"` for page responses |
-| `id` | string | Unique ID of the newly created page |
+| `object`  | string   | Always `"page"` for page responses |
+| `id`      | string   | Unique ID of the newly created page |
 | `created_time` | string | ISO 8601 timestamp of page creation |
-| `last_edited_time` | string | ISO 8601 timestamp of last edit |
-| `parent` | object | Contains the parent page or database ID |
-| `url` | string | Direct URL to the page in Notion |
+| `last_edited_time`   | string | ISO 8601 timestamp of last edit |
+| `parent`  | object   | Contains the parent page or database ID |
+| `url`     | string   | Direct URL to the page in Notion |
 | `in_trash` | boolean | Whether the page is deleted |
 | `is_archived` | boolean | Whether the page is archived |
 | `properties` | object | Contains page title and other properties |
@@ -203,39 +209,41 @@ POST /pages
 
 | **CODE** | **MEANING** |
 |----------|-------------|
-| 200 | Page created successfully |
-| 400 | Bad request — missing or invalid fields |
-| 401 | Unauthorized — invalid or missing token |
-| 404 | Parent page not found |
-| 500 | Internal server error |
+| `200`    | Page created successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource | 
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
 ### 2. Fetch a Page by ID
 
-Retrieve a page by its ID.
+Returns details of a specific page.
 
 #### Endpoint:
 
-GET /pages/:id
+`GET /pages/:id`
 
 #### Path Parameters:
 
-|**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
-|-------------|--------|------------|---------------|
-| `page_id` | string | Yes | Unique ID of the page |
+| **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
+|---------------|----------|--------------|-----------------|
+| `page_id`     | string   |  Yes         | Unique ID of the page |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Response:
 
 ```json
+
 {
     "object": "page",
     "id": "34051562-df03-806a-b9d7-cd40439aef35",
@@ -292,34 +300,38 @@ GET /pages/:id
     "public_url": null,
     "archived": false
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"page"` for page responses |
-| `id` | string | Unique ID of the retrieved page |
+| `object`  | string   | Always `"page"` for page responses |
+| `id`      | string   | Unique ID of the retrieved page |
 | `created_time` | string | ISO 8601 timestamp of page creation |
 | `last_edited_time` | string | ISO 8601 timestamp of last edit |
 | `created_by` | object | User who created the page |
 | `last_edited_by` | object | User who last edited the page |
-| `cover` | object | Cover image of the page, null if not set |
-| `parent` | object | Parent container — workspace, page, or database |
+| `cover`   | object   | Cover image of the page, null if not set |
+| `parent`  | object   | Parent container — workspace, page, or database |
 | `in_trash` | boolean | Whether the page is deleted |
 | `is_archived` | boolean | Whether the page is archived |
 | `is_locked` | boolean | Whether the page is locked from editing |
 | `properties` | object | Contains page title and other properties |
-| `url` | string | Direct URL to the page in Notion |
+| `url`     | string   | Direct URL to the page in Notion |
 | `public_url` | string | Public URL if page is shared, null otherwise |
 
 #### Status Codes:
 
 | **CODE** | **MEANING** |
 |----------|-------------|
-| 200 | Page retrieved successfully |
-| 401 | Unauthorized — invalid or missing token |
-| 404 | Page not found |
-| 500 | Internal server error |
+| `200`    | Got details of a specific page successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
@@ -329,25 +341,26 @@ Updates the properties of an existing page using its unique page ID.
 
 #### Endpoint:
 
-PATCH /pages/:id
+`PATCH /pages/:id`
 
 #### Path parameters:
 
-|**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
-|-------------|--------|------------|---------------|
-| `page_id` | string | Yes | Unique ID of the page |
+| **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
+|---------------|----------|--------------|-----------------|
+| `page_id`     | string   | Yes          | Unique ID of the page |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Request:
 
 ```json
+
 {
   "properties": {
     "title": {
@@ -355,6 +368,7 @@ PATCH /pages/:id
     }
   }
 }
+
 ```
 
 #### Request Fields:
@@ -362,13 +376,14 @@ PATCH /pages/:id
 |**FIELDS**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
 |----------|--------|------------|---------------|
 | `properties` | object | Yes | Property values of this page. |
-| `title` | string | Yes | A type object that contains data specific to the page  being created |
-| `text` | string | Yes | The type of the property in the page object. |
+| `title`  | array | Yes | A type object that contains data specific to the page  being created|
+| `text`   | string | Yes | The type of the property in the page object. |
 | `content` | string | Yes | Changed name of the page |
 
 #### Response:
 
 ```json
+
 {
     "object": "page",
     "id": "34051562-df03-806a-b9d7-cd40439aef35",
@@ -423,72 +438,79 @@ PATCH /pages/:id
     },
     "url": "https://www.notion.so/gokul-34051562df03806ab9d7cd40439aef35",
     "public_url": null,
-    "archived": false,
+    "archived": false
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"page"` for page responses |
-| `id` | string | Unique ID of the retrieved page |
+| `object`  | string   | Always `"page"` for page responses |
+| `id`      | string   | Unique ID of the retrieved page |
 | `created_time` | string | ISO 8601 timestamp of page creation |
 | `last_edited_time` | string | ISO 8601 timestamp of last edit |
 | `created_by` | object | User who created the page |
 | `last_edited_by` | object | User who last edited the page |
-| `cover` | object | Cover image of the page, null if none |
-| `parent` | object | Parent container — workspace, page, or database |
+| `cover`   | object   | Cover image of the page, null if none |
+| `parent`  | object   | Parent container — workspace, page, or database |
 | `in_trash` | boolean | Whether the page is deleted |
 | `is_archived` | boolean | Whether the page is archived |
 | `is_locked` | boolean | Whether the page is locked from editing |
 | `properties` | object | Contains page title and other properties |
-| `url` | string | Direct URL to the page in Notion |
+| `url`     | string   | Direct URL to the page in Notion |
 | `public_url` | string | Public URL if page is shared, null if private |
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | successfully updated page properties |
-| 400 | Bad request — missing fields |
-| 401 | Unauthorized |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Page updated successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
 ### 4. Query a Database
 
-Returns all pages in a database. Supports filters, sorts, and pagination.
+Returns all pages in a database.
 
 #### Endpoint:
 
-POST https://api.notion.com/v1/databases/{database_id}/query
+`POST /databases/{database_id}`
 
 #### Path Parameters:
 
 | **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
 |---------------|----------|--------------|-----------------|
-| `database_id` | string | Yes | Unique ID of the database to query |
-| `query` | string | Yes | collect details about the database|
+| `database_id` | string   | Yes          | Unique ID of the database to query |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Request:
 
 Send empty body to return all rows:
 
 ```json
+
 {}
+
 ```
+
 #### Response:
 
 ```json
+
 {
     "object": "list",
     "results": [
@@ -512,10 +534,13 @@ Send empty body to return all rows:
     "has_more": false,
     "type": "page_or_database"
 }
+
 ```
+
 #### With Filter:
 
 ```json
+
 {
   "filter": {
     "property": "Column 1",
@@ -524,10 +549,13 @@ Send empty body to return all rows:
     }
   }
 }
+
 ```
+
 #### Response:
 
 ```json
+
 {
     "object": "list",
     "results": [
@@ -551,10 +579,13 @@ Send empty body to return all rows:
     "has_more": false,
     "type": "page_or_database"
 }
+
 ```
+
 #### With Sort:
 
 ```json
+
 {
   "sorts": [
     {
@@ -563,10 +594,13 @@ Send empty body to return all rows:
     }
   ]
 }
+
 ```
+
 #### Response:
 
 ```json
+
 {
     "object": "list",
     "results": [
@@ -617,62 +651,69 @@ Send empty body to return all rows:
     "has_more": false,
     "type": "page_or_database"
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"list"` for query responses |
-| `results` | array | Array of page objects matching the query |
-| `results[].object` | string | Always `"page"` for each result |
-| `results[].id` | string | Unique ID of the page |
-| `results[].created_time` | string | ISO 8601 timestamp of page creation |
-| `results[].last_edited_time` | string | ISO 8601 timestamp of last edit |
-| `results[].parent` | object | Parent database containing the page |
-| `results[].properties` | object | Column values of the database row |
-| `results[].url` | string | Direct URL to the page in Notion |
-| `results[].in_trash` | boolean | Whether the page is deleted |
+| `object`  | string   | Always `"list"` for query responses |
+| `results` | array    | Array of page objects matching the query |
+| `object`  | string   | Always `"page"` for each result |
+| `id`      | string   | Unique ID of the page |
+| `created_time` | string | ISO 8601 timestamp of page creation |
+| `last_edited_time` | string | ISO 8601 timestamp of last edit |
+| `parent`  | object   | Parent database containing the page |
+| `properties` | object | Column values of the database row |
+| `url`     | string   | Direct URL to the page in Notion |
+| `in_trash` | boolean | Whether the page is deleted |
 | `next_cursor` | string | Cursor for next page of results, null if none |
 | `has_more` | boolean | Whether more results exist beyond this page |
-| `type` | string | Always `"page_or_database"` for query responses |
+| `type`    | string   | Always `"page_or_database"` for query responses |
 
 > **Pagination note:** When `has_more` is `true`, pass the `next_cursor` 
 > value in your next request body as `"start_cursor"` to fetch the next page of results.
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | successful |
-| 400 | Bad request |
-| 404 | Resource not found |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Got all pages in the database successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
+
+---
 
 ### 5. Retrieve Database Schema
 
-Get the database schema.
+Returns details of specific database.
 
 #### Endpoint:
 
-GET /databases/:id
+`GET /databases/:id`
 
 #### Path Parameters:
 
-|**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
-|-------------|--------|------------|---------------|
-| `database_id` | string | Yes | Unique ID of the database |
+| **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
+|---------------|----------|--------------|-----------------|
+| `database_id` | string   |  Yes         | Unique ID of the database |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Response: 
 
 ```json
+
 {
     "object": "database",
     "id": "34151562-df03-80c3-a20b-fed75ebccced",
@@ -721,63 +762,69 @@ GET /databases/:id
     "url": "https://www.notion.so/34151562df0380c3a20bfed75ebccced",
     "public_url": null,
     "in_trash": false,
-    "archived": false,
+    "archived": false
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"database"` for database responses |
-| `id` | string | Unique ID of the database |
+| `object`  | string   | Always `"database"` for database responses |
+| `id`      | string   | Unique ID of the database |
 | `created_time` | string | ISO 8601 timestamp of database creation |
 | `last_edited_time` | string | ISO 8601 timestamp of last edit |
 | `created_by` | object | User who created the database |
 | `last_edited_by` | object | User who last edited the database |
-| `title` | array | Title of the database |
+| `title`   | array    | Title of the database |
 | `description` | array | Description of the database |
 | `properties` | object | Schema of all database columns |
-| `parent` | object | Parent page containing the database |
+| `parent`  | object   | Parent page containing the database |
 | `is_inline` | boolean | Whether database is inline or full page |
-| `url` | string | Direct URL to the database in Notion |
+| `url`     | string   | Direct URL to the database in Notion |
 | `in_trash` | boolean | Whether the database is deleted |
 | `archived` | boolean | Whether the database is archived |
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | Retrieved database schema  |
-| 404 | Resource not found |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Specific database fetched successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
 ### 6. Retrieve child blocks of a page
 
-Get child blocks details from a page.
+Lists details of child blocks in a page.
 
 #### Endpoint:
 
-GET /blocks/:id/children
+`GET /blocks/:id/children`
 
 #### Path Parameters:
 
-|**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
-|-------------|--------|------------|---------------|
-| `block_id` | string | Yes | Unique ID of the block |
-| `children` | array | yes | blocks inside a parent block |
+| **PARAMETER** | **TYPE** | **REQUIRED** | **DESCRIPTION** |
+|---------------|----------|--------------|----------------|
+| `block_id`    | string   |  Yes         | Unique ID of the block |
+| `children`    | array    |  Yes         | blocks inside a parent block |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
-|--------|-------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+|------------|-----------|
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Response: 
 
 ```json
+
 {
     "object": "list",
     "results": [
@@ -986,62 +1033,68 @@ GET /blocks/:id/children
     "type": "block",
     "block": {},
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"list"` for block list responses |
-| `results` | array | Array of block objects inside the page |
-| `results[].object` | string | Always `"block"` for each result |
-| `results[].id` | string | Unique ID of the block |
-| `results[].parent` | object | Parent page containing the block |
-| `results[].created_time` | string | ISO 8601 timestamp of block creation |
-| `results[].last_edited_time` | string | ISO 8601 timestamp of last edit |
-| `results[].type` | string | Block type — `"paragraph"`, `"child_page"`, etc. |
-| `results[].has_children` | boolean | Whether the block contains nested blocks |
-| `results[].in_trash` | boolean | Whether the block is deleted |
-| `results[].paragraph` | object | Paragraph content, present when type is `"paragraph"` |
-| `results[].child_page` | object | Child page title, present when type is `"child_page"` |
+| `object`  | string   | Always `"list"` for block list responses |
+| `results` | array    | Array of block objects inside the page |
+| `object`  | string   | Always `"block"` for each result |
+| `id`      | string   | Unique ID of the block |
+| `parent`  | object   | Parent page containing the block |
+| `created_time` | string | ISO 8601 timestamp of block creation |
+| `last_edited_time` | string | ISO 8601 timestamp of last edit |
+| `type`    | string   | Block type — `"paragraph"`, `"child_page"`, etc. |
+| `has_children` | boolean | Whether the block contains nested blocks |
+| `in_trash` | boolean | Whether the block is deleted |
+| `paragraph` | object | Paragraph content, present when type is `"paragraph"` |
+| `child_page` | object | Child page title, present when type is `"child_page"` |
 | `next_cursor` | string | Cursor for next page of results, null if none |
 | `has_more` | boolean | Whether more blocks exist beyond this page |
-| `type` | string | Always `"block"` for block list responses |
+| `type`    | string   | Always `"block"` for block list responses |
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | Child blocks retrieved successfully |
-| 404 | Resource not found |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Child blocks of the page fetched successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
 ### 7. Update a Block
 
-Update a block's content.
+Updates a block's content.
 
 #### Endpoint:
 
-PATCH /blocks/:id
+`PATCH /blocks/:id`
 
 #### Path Parameters:
 
 |**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
 |-------------|--------|------------|---------------|
-| `block_id` | string |	Yes	| Unique ID of the block |
+| `block_id`  | string |	Yes	    | Unique ID of the block |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Response:
 
 ```json
+
 {
     "object": "block",
     "id": "34051562-df03-80c0-bc43-fce363bee5bf",
@@ -1087,61 +1140,67 @@ PATCH /blocks/:id
     },
     "archived": false
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"block"` for block responses |
-| `id` | string | Unique ID of the updated block |
-| `parent` | object | Parent page containing the block |
+| `object`  | string   | Always `"block"` for block responses |
+| `id`      | string   | Unique ID of the updated block |
+| `parent`  | object   | Parent page containing the block |
 | `created_time` | string | ISO 8601 timestamp of block creation |
 | `last_edited_time` | string | ISO 8601 timestamp of last edit |
 | `created_by` | object | User who created the block |
 | `last_edited_by` | object | User who last edited the block |
 | `has_children` | boolean | Whether the block contains nested blocks |
 | `in_trash` | boolean | Whether the block is deleted |
-| `type` | string | Block type — always `"paragraph"` for paragraph blocks |
+| `type`    | string   | Block type — always `"paragraph"` for paragraph blocks |
 | `paragraph` | object | Contains the updated paragraph content |
 | `paragraph.rich_text` | array | Array of text objects with content and annotations |
-| `paragraph.color` | string | Text color — `"default"` unless changed |
+| `paragraph.color`    | string | Text color — `"default"` unless changed |
 | `archived` | boolean | Whether the block is archived |
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | Block update success |
-| 404 | Resource not found |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Block updated successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
 ### 8. Delete a block
 
-Remove a block from the work
+Removes a block from the work
 
 #### Endpoint:
 
-DELETE /blocks/:id
+`DELETE /blocks/:id`
 
 #### Path Parameters:
 
 |**PARAMETER**|**TYPE**|**REQUIRED**|**DESCRIPTION**|
 |-------------|--------|------------|---------------|
-| `block_id` | string |	Yes	| Unique ID of the block |
+| `block_id`  | string |	Yes	    | Unique ID of the block |
 
 #### Headers:
 
 | **HEADER** | **VALUE** |
 |------------|-----------|
-| Authorization | Bearer secret_xxxxxxxxx |
-| Content-Type | application/json |
-| Notion-Version | 2026-03-11 |
+| `Content-Type` | `application/json` |
+| `Authorization` | `Bearer YOUR_KEY` |
+| `Notion-Version` | `2026-03-11` |
 
 #### Response:
 
 ```json
+
 {
     "object": "block",
     "id": "34051562-df03-80c0-bc43-fce363bee5bf",
@@ -1187,35 +1246,38 @@ DELETE /blocks/:id
     },
     "archived": true
 }
+
 ```
+
 #### Response Fields:
 
 | **FIELD** | **TYPE** | **DESCRIPTION** |
 |-----------|----------|-----------------|
-| `object` | string | Always `"block"` for block responses |
-| `id` | string | Unique ID of the deleted block |
-| `parent` | object | Parent page that contained the block |
+| `object`  | string   | Always `"block"` for block responses |
+| `id`      | string   | Unique ID of the deleted block |
+| `parent`  | object   | Parent page that contained the block |
 | `created_time` | string | ISO 8601 timestamp of block creation |
 | `last_edited_time` | string | ISO 8601 timestamp when block was deleted |
 | `created_by` | object | User who created the block |
 | `last_edited_by` | object | User who deleted the block |
 | `has_children` | boolean | Whether the block had nested blocks |
 | `in_trash` | boolean | Always `true` after deletion |
-| `type` | string | Block type before deletion |
+| `type`    | string   | Block type before deletion |
 | `paragraph` | object | Original paragraph content before deletion |
 | `archived` | boolean | Always `true` after deletion |
 
-> Notion does not permanently delete blocks immediately. 
-> Deleted blocks have `in_trash: true` and `archived: true` 
-> and can be restored from Notion's trash.
+> ⚠️ Note: Notion does not permanently delete blocks immediately. Deleted blocks have `in_trash:true` and `archived: true` and can be restored from Notion's trash.
 
 #### Status Codes:
 
-|**CODE**|**MEANING**|
-|--------|-----------|
-| 200 | Successfully deleted the block |
-| 404 | Resource not found |
-| 500 | Internal server error |
+| **CODE** | **MEANING** |
+|----------|-------------|
+| `200`    | Block deleted successfully |
+| `400`    | Invalid request - Missing or invalid data |
+| `401`    | Unauthorized token - Invalid or missing token | 
+| `403`    | Forbidden — Integration lacks access to this resource |
+| `404`    | Parent page not found |
+| `500`    | Internal server error |
 
 ---
 
@@ -1223,12 +1285,12 @@ DELETE /blocks/:id
 
 |**CODE**|**ERROR**|**CAUSE**|**FIX**|
 |--------|---------|---------|-------|
-| 400 |  Invalid request | Missing or invalid data | Check request body |
-| 401 | Unauthorized token | Invalid or missing token | Check token  |
-| 403 | restricted resource | Given the bearer token used, the client doesn’t have permission to perform this operation | API token does not have access to this resource.|
-| 404 | Object Not Found | Resource does not exist | Verify endpoint and token |
-| 429 | Too Many Requests | Rate limit exceeded | Wait and retry |
-| 500 | Internal Server Error | Server-side issue | Retry or contact support |
+| `400`  |  Invalid request | Missing or invalid data | Check request body |
+| `401`  | Unauthorized token | Invalid or missing token | Check token  |
+| `403`  | restricted resource | Given the bearer token used, the client doesn’t have permission to perform this operation | API token does not have access to this resource.|
+| `404`  | Object Not Found | Resource does not exist | Verify endpoint and token |
+| `429`  | Too Many Requests | Rate limit exceeded | Wait and retry |
+| `500`  | Internal Server Error | Server-side issue | Retry or contact support |
 
 ---
 
@@ -1239,6 +1301,7 @@ DELETE /blocks/:id
 **JavaScript:**
 
 ```javascript
+
 fetch('https://api.notion.com/v1/pages', {
   method: 'POST',
   headers: {
@@ -1257,11 +1320,13 @@ fetch('https://api.notion.com/v1/pages', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1286,6 +1351,7 @@ response = requests.post(
 )
 
 print(response.json())
+
 ```
 
 ### 2. GET /pages/:id — Retrieve a Page
@@ -1304,11 +1370,13 @@ fetch('https://api.notion.com/v1/pages/34051562df03806ab9d7cd40439aef35', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1323,6 +1391,7 @@ response = requests.get(
 )
 
 print(response.json())
+
 ```
 
 ### 3. PATCH /pages/:id — Update a Page
@@ -1348,11 +1417,13 @@ fetch('https://api.notion.com/v1/pages/34051562df03806ab9d7cd40439aef35', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1376,6 +1447,7 @@ response = requests.patch(
 )
 
 print(response.json())
+
 ```
 
 ### 4. POST /databases/:id/query — Query a Database
@@ -1400,11 +1472,13 @@ fetch('https://api.notion.com/v1/databases/34151562df0380c3a20bfed75ebccced/quer
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1427,7 +1501,9 @@ response = requests.post(
 )
 
 print(response.json())
+
 ```
+
 ### 5. GET /databases/:id — Retrieve a Database
 
 **JavaScript:**
@@ -1444,10 +1520,13 @@ fetch('https://api.notion.com/v1/databases/34151562df0380c3a20bfed75ebccced', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
+
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1462,6 +1541,7 @@ response = requests.get(
 )
 
 print(response.json())
+
 ```
 
 ### 6. GET /blocks/:id/children — Retrieve Child Blocks
@@ -1480,11 +1560,13 @@ fetch('https://api.notion.com/v1/blocks/34051562df03806ab9d7cd40439aef35/childre
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1523,11 +1605,13 @@ fetch('https://api.notion.com/v1/blocks/34051562df0380c0bc43fce363bee5bf', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1549,6 +1633,7 @@ response = requests.patch(
 )
 
 print(response.json())
+
 ```
 
 ### 8. DELETE /blocks/:id — Delete a Block
@@ -1567,11 +1652,13 @@ fetch('https://api.notion.com/v1/blocks/34051562df0380c0bc43fce363bee5bf', {
 })
 .then(response => response.json())
 .then(data => console.log(data));
+
 ```
 
 **Python:**
 
 ```python
+
 import requests
 
 headers = {
@@ -1586,58 +1673,32 @@ response = requests.delete(
 )
 
 print(response.json())
+
 ```
 
 ## Changelog
 
-|**VERSION**|**DATE**|**CHANGES**|
-|-----------|--------|-----------|
-| 1.0 | April 11, 2026 | Initial release |
+| **VERSION** | **DATE** | **CHANGES** |
+|-------------|----------|-------------|
+| 1.0         | April 11, 2026 | Initial release |
+| 1.1         | May 9, 2026 | Fixed field types, removed invalid JSON trailing comma, corrected path parameters |
 
 ## Support & Contact
 
-|**CHANNEL**|**DETAILS**|
-|-----------|-----------|
-| Official Docs | https://developers.notion.com |
-| Community | https://www.notion.so/community |
-| Status Page | https://www.notion-status.com/ |
+| **CHANNEL** | **DETAILS** |
+|-------------|-------------|
+| Official Docs | `https://developers.notion.com` |
+| Community   | `https://www.notion.so/community` |
+| Status Page | `https://www.notion-status.com`  |
 
 ## License & Compliance
 
-### API Usage
-This documentation covers the Notion REST API. Use of the API is 
-subject to [Notion's API Terms of Service](https://www.notion.so/notion/Notion-s-API-Terms-of-Use-3f9fefe7c62345b8afb1be1aefdcd9d9).
-
-### Documentation License
-This documentation was created by Gokul S Anand as a technical 
-writing portfolio project. It is intended for educational and 
-demonstration purposes only.
-
-### Data Privacy
-Never expose your Notion Integration Token (`secret_xxxxxxxxx`) 
-in client-side code or public repositories. Store tokens in 
-environment variables:
-
-**JavaScript:**
-```javascript
-const token = process.env.NOTION_API_KEY;
-```
-
-**Python:**
-```python
-import os
-token = os.getenv('NOTION_API_KEY')
-```
-
-### Rate Limiting
-Notion's API allows an average of 3 requests per second per 
-integration. Exceeding this limit returns a `429 Too Many Requests` 
-error. Implement exponential backoff in your integration to handle 
-rate limit errors gracefully.
+This documentation covers the Notion REST API and is subject to Notion’s API Terms of Service; API tokens (`secret_xxxxxxxxx`) should never be exposed in client-side code or public repositories and must be stored securely using environment variables, while integrations should also implement proper rate-limit handling, as the Notion API allows an average of 3 requests per second per integration and may return `429` Too Many Requests errors when limits are exceeded.
 
 ---
+
 ---
 
-*Document Version: 1.0 | Last Reviewed: April 23, 2026* 
+*Document Version: 1.1 | Last Reviewed: May 9, 2026* 
 
 ---
