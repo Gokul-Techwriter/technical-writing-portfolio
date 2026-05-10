@@ -8,13 +8,14 @@
 
 **Prepared By:** Gokul S Anand
 **Portfolio:** Technical Writing Portfolio
-**Date:** February 23, 2026
+**Date:** May 10, 2026
 
 ## Document Control Information
 
 | **VERSION** | **DATE** | **AUTHOR** | **DESCRIPTION** |
 |-------------|----------|------------|-----------------|
-| 1.0 | February 23, 2026 | Gokul S Anand | Initial Release 
+| 1.0 | February 23, 2026 | Gokul S Anand | Initial Release |
+| 1.1 | May 10, 2026      | Gokul S Anand | Correction in some words and sentences | 
 
 ---
 
@@ -80,7 +81,7 @@ This document is intended for:
 
 **A:** Ensure the system has a stable Internet connection and confirm the entered credentials are correct.
 
-## 6. Email Sending & Receiving FAQs
+## 6. Email Sending and Receiving FAQs
 
 **Q1. How do I send an email through Gmail (Web version)?**
 
@@ -94,7 +95,7 @@ This document is intended for:
 
 **A:** Incoming emails are displayed in the Inbox folder by default.
 
-## 7. Features FAQs
+## 7. Feature FAQs
 
 **Q1. How do I change the maximum page size?**
 
@@ -108,7 +109,7 @@ This document is intended for:
 **Q2. How do I archive a mail?**
 
 **A:**
-1. Select the mail you want to archive
+1. Select the mail you want to archive.
 2. Right-click and select **Archive**
 
 ## 8. Troubleshooting FAQs
@@ -121,7 +122,7 @@ This document is intended for:
 
 **A:** Email receiving failure may occur due to insufficient space on the Google Account. Delete unnecessary emails and permanently remove them from the **Trash** to free up storage space.
 
-## 9. Privacy & Security FAQs
+## 9. Security & Privacy FAQs
 
 **Q1. Is user data encrypted in Gmail (Web version)?**
 
@@ -139,8 +140,11 @@ For further assistance:
 
 |**SUPPORT CHANNELS**|**DETAILS**|
 |--------------------|-----------|
-| Gmail Help | https://support.google.com/mail/?hl=en#topic=7065107 
+| Gmail Help | `https://support.google.com/mail/?hl=en#topic=7065107` |
 
 ---
+---
 
-*Document Version: 1.0 | Last Reviewed: February 23, 2026*
+*Document Version: 1.1 | Last Reviewed: May 10, 2026*
+
+---
