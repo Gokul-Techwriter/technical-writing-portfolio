@@ -2,19 +2,20 @@
 
 ---
 
-**Version:** 145.0.7632.109
+**Version:** `145.0.7632.109`
 
 ---
 
 **Prepared By:** Gokul S Anand
 **Portfolio:** Technical Writing Portfolio
-**Date:** February 21, 2026
+**Date:** May 10, 2026
 
 ## Document Control Information
 
 | **VERSION** | **DATE** | **AUTHOR** | **DESCRIPTION** |
 |-------------|----------|------------|-----------------|
-| 1.0 | February 21, 2026 | Gokul S Anand | Initial Release 
+| 1.0 | February 21, 2026 | Gokul S Anand | Initial Release |
+| 1.1 | May 10, 2026 | Gokul S Anand | Updated some words and sentences |
 
 ---
 
@@ -71,7 +72,7 @@ This document is intended for:
   - iOS (iOS 16 or later)
 - On desktop:
   - Windows (Windows 10 or later)
-  - macOS (macOS 10 Big Sur or later)
+  - macOS (macOS 11 (Big Sur) or later)
   - Linux (64-bit Linux distribution with glibc 2.17 or later)
 
 ## 5. Installation FAQs
@@ -144,11 +145,7 @@ This document is intended for:
 
 **Q2. Why is the application running slowly?**
 
-**A:** Slow performance may occur due to too many 
-open tabs, outdated Chrome version, or insufficient 
-system memory. Try closing unused tabs, clearing 
-cache, or updating Chrome via **Settings** > 
-**Help** > **About Google Chrome**.
+**A:** Slow performance may occur due to too many open tabs, outdated Chrome version, or insufficient system memory. Try closing unused tabs, clearing cache, or updating Chrome via **Settings** > **Help** > **About Google Chrome**.
 
 ## 9. Security & Privacy FAQs
 
@@ -168,8 +165,11 @@ For further assistance:
 
 | **SUPPORT CHANNELS** | **DETAILS** |
 |----------------------|-------------|
-| Official support| https://support.google.com/chrome/?hl=en#topic=7439538   |
+| Official support|`https://support.google.com/chrome/?hl=en#topic=7439538` |
 
 ---
+---
 
-*Document Version: 1.0 | Last Reviewed: February 21, 2026*
+*Document Version: 1.1 | Last Reviewed: May 10, 2026*
+
+---
