@@ -7,7 +7,7 @@
 | Product | Visual Studio Code (VS Code) |
 | Document Type | User Guide |
 | OS/Platform | Windows |
-| Version | `1.119.0` |
+| Version | `1.109.5` |
 | Author | Gokul S Anand |
 | Last Updated | March 3, 2026 |
 
@@ -367,7 +367,7 @@ Visual Studio Code is developed and maintained by Microsoft Corporation. All tra
 VS Code is licensed under the MIT License.  
 License details: `https://github.com/microsoft/vscode/blob/main/LICENSE.txt`
 
-All product information in this guide is based on VS Code Version `1.119.0` for Windows.
+All product information in this guide is based on VS Code Version  `1.109.5` for Windows.
 
 This document is not affiliated with or endorsed by Microsoft Corporation.
 
