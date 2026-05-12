@@ -1,4 +1,4 @@
-# Visual Studio Code (VS Code) Installation Guide
+# Visual Studio Code Installation Guide
 
 ---
 
@@ -7,15 +7,43 @@
 | Product         | Visual Studio Code (VS Code)|
 | Document Type   | Installation Guide       |
 | OS/Platform     | Windows                  |
-| Version         | 1.109.5                  |
+| Version         | `1.109.5`                |
 | Author          | Gokul S Anand            |
-| Last Updated    | March 3, 2026            |
+| Last Updated    | May 12, 2026             |
 
 ---
 
 ## Introduction
 
 Visual Studio Code (VS Code) is a code editor developed by Microsoft. This guide helps users to successfully download, install, verify, and uninstall it on Windows.
+
+## Table of Contents
+
+1. Introduction
+
+2. Who This Guide Is For
+
+3. System Requirements
+
+4. Prerequisites
+
+5. Downloading VS Code
+
+6. Installation Steps
+
+7. Post-Installation Setup
+
+8. Verifying the Installation
+
+9. Uninstallation
+
+10. Troubleshooting
+
+11. FAQ
+
+12. Support & Contact
+
+13. License & Compliance
 
 ## Who This Guide Is For
 
@@ -29,23 +57,24 @@ This guide is intended for:
 
 | **Component**   | **Minimum**      | **Recommended**  |
 |-----------------|------------------|------------------|
-| OS              | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| OS              | Windows 10 (64-bit) | Windows 11 (64-bit)|
 | RAM             | 4 GB             | 8 GB             |
 | Disk Space      | 850 MB           | 1 GB             |
 | Processor       | ARM64 or x64     | Quad-core or better |
-| Internet        | Required for setup | stable internet connections |
+| Internet        | Required for setup | Stable broadband |
 
-> 💡 **Note:** Recommended specifications are based on 
-> general best practices. Official minimum requirements 
-> sourced from code.visualstudio.com/docs/supporting/requirements
+> 📝 **Note:** Recommended specifications are based on general best practices. Official minimum requirements sourced from `code.visualstudio.com/docs/supporting/requirements`
 
 ---
 
 ## Prerequisites
 
 - [ ] Administrator access
-- [ ] Your system meets the minimum system requirements.
+
+- [ ] Your system meets the minimum system requirements
+
 - [ ] Stable internet connection
+
 - [ ] Any previous version of VS Code is uninstalled (for a clean installation)
 
 ---
@@ -54,12 +83,11 @@ This guide is intended for:
 
 ### Step 1: Visit the official website of VS Code
 
-Go to the official website of VS Code: https://code.visualstudio.com/
+Go to the official website of VS Code: `https://code.visualstudio.com/`
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-download.png" width="500px" />
 
-> ⚠️ **Warning:** Always download from the official 
-> website only. Avoid third-party download sites.
+> ⚠️ **Warning:** Always download from the official website only. Avoid third-party download sites.
 
 ### Step 2: Download the installer file for Windows
 
@@ -94,21 +122,19 @@ Click **I accept the agreement** after reading the License agreements > click **
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-install.png" width="500px" />
 
-> ⚠️ **Warning:** You must accept the agreement 
-> to proceed with installation.
+> ⚠️ **Warning:** You must accept the agreement to proceed with installation.
 
 ### Step 4: Select the Installation Folder
 
-Select the folder to which you want the VS Code to be installed > **Next**.
+Select the folder to which you want the VS Code to be installed > **Next**
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-04-install.png" width="500px" />
 
-> 💡 **Tip:** Keep the default folder unless you 
-> have a specific reason to change it.
+> 💡 **Tip:** Keep the default folder unless you have a specific reason to change it.
 
 ### Step 5: Choose Menu Folder
 
-Choose the **Start Menu Folder** > click **Next**
+Choose the **Start Menu Folder** > click **Next**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-05-install.png" width="500px" />
 
@@ -118,9 +144,7 @@ Tick the **Create a desktop icon** > **Next**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-06-install.png" width="500px" />
 
-> 💡 **Tip:** Also tick **Add to PATH** option — 
-> this allows you to open VS Code from the 
-> terminal directly.
+> 💡 **Tip:** Also tick **Add to PATH** option — this allows you to open VS Code from the terminal directly.
 
 ### Step 7: Install
 
@@ -142,7 +166,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 ### Step 1: Change the Color Theme
 
-1. Click the **Setting Icon** on the left bottom > **Themes** > **Color Theme** (**Ctrl+K Ctrl+T**)
+1. Click the **Settings Icon** on the left bottom > **Themes** > **Color Theme** (**Ctrl+K Ctrl+T**)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-1.1-post-install.png" width="500px" />
 
@@ -172,7 +196,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-3.1-post-install.png" width="500px" />
 
-2. Search for the extension you want > click **Install**
+2. Search for the extension you want > click **Install**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-3.2-post-install.png" width="500px" />
 
@@ -182,11 +206,11 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 ## Verifying the Installation
 
-- [ ] Confirm VS Code opens without any errors.
+- [ ] Confirm VS Code opens without any errors
 
-- [ ] Verify the version is correct: Open VS Code > click **Help** > **About**.
+- [ ] Verify the version is correct: Open VS Code > click **Help** > **About**
 
-- [ ] Ensure basic features like creating new files, extensions, terminals, and settings works properly.
+- [ ] Ensure basic features like creating new files, extensions, terminals, and settings work properly
 
 **Expected Result:** VS Code is installed and functioning correctly on your Windows system.
 
@@ -196,7 +220,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 ### Windows
 
-1. Open **Start menu** > search **Control Panel** > click **Open**
+1. Open **Start menu** > search **Control Panel** > click **Open**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-uninstall.png" width="500px" />
 
@@ -204,7 +228,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-uninstall.png" width="500px" />
 
-3. Search **Microsoft Visual Studio Code**
+3. Search **Microsoft Visual Studio Code**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-03-uninstall.png" width="500px" />
 
@@ -212,7 +236,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-04-uninstall.png" width="500px" />
 
-5. Wait for the uninstallation to get completed > Click **Ok** for the confirmation 
+5. Wait for the uninstallation to get completed > Click **Ok** for the confirmation.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-05-uninstall.png" width="500px" />
 
@@ -242,8 +266,7 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 4. Attempt the action again.
 
-> ⚠️ **Warning:** Do not interrupt the installation 
-> process once it has started.
+> ⚠️ **Warning:** Do not interrupt the installation process once it has started.
 
 **Expected Result:** VS Code is successfully installed on Windows.
 
@@ -255,9 +278,9 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 
 - Insufficient storage space
 
-- Permission for the extension is blocked in settings.
+- Permission for the extension is blocked in settings
 
-- The app is outdated for the extension.
+- The app is outdated for the extension
 
 **Fix:**  
 
@@ -274,42 +297,46 @@ Click **Finish** to complete the installation. VS Code launches automatically.
 ### Issue 3: Unable to Uninstall
 
 **Cause:**
+
 - VS Code is still running in the background.
+
 - Insufficient administrator permissions.
 
 **Fix:**
-1. Open **Task Manager** (**Ctrl+Shift+Esc**) and 
-   end any running VS Code processes
-2. Ensure you have administrator access on Windows
-3. Restart the system
+
+1. Open **Task Manager** (**Ctrl+Shift+Esc**) and end any running VS Code processes.
+
+2. Ensure you have administrator access on Windows.
+
+3. Restart the system.
+
 4. Attempt the uninstallation again.
 
-**Expected Result:** VS Code is successfully 
-uninstalled from Windows.
+**Expected Result:** VS Code is successfully uninstalled from Windows.
 
 ---
 
 ## FAQ
 
-**Q1: Is VS Code free?**
+**Q1. Is VS Code free?**
 
 **A:** Yes, VS Code is a free code editor, that runs on the macOS, Linux, and Windows operating systems.
 
-**Q2: How to update the app?**
+**Q2. How to update the app?**
 
 **A:** By default, VS Code automatically updates when new versions are released. To disable auto-updates, go to **File** > **Preferences** > **Settings** > search **Update: Mode** > change it from **default** to **none**.
 
-**Q3: Can I control which extensions are allowed to be installed?**
+**Q3. Can I control which extensions are allowed to be installed?**
 
 **A:** Yes, by default, all extensions are allowed. You can set this to allow only specific ones. You can filter by publisher, extension, version, or platform. Then, block the others. To do this, go to **Settings** (**Ctrl+,**) > **Extension settings**; set it as you prefer.  
 
 ## Support & Contact
 
-| Channel          | Details  |
-|------------------|----------|
-| Official Docs    | https://code.visualstudio.com/docs |
-| Community Forum  | https://stackoverflow.com/questions/tagged/vscode |
-| FAQ & Support    | https://code.visualstudio.com/docs/supporting/FAQ |
+| **CHANNEL**      | **DETAILS**                        |
+|------------------|------------------------------------|
+| Official Docs    | `https://code.visualstudio.com/docs` |
+| Stack Overflow  | `https://stackoverflow.com/questions/tagged/vscode`     |
+| FAQ & Support    | `https://code.visualstudio.com/docs/supporting/FAQ` |
 
 ---
 
@@ -320,13 +347,15 @@ This document was created for portfolio and educational purposes only.
 Visual Studio Code is developed and maintained by Microsoft Corporation. All trademarks, logos, and product names belong to Microsoft Corporation.
 
 VS Code is licensed under the MIT License.  
-License details: <https://github.com/microsoft/vscode/blob/main/LICENSE.txt>
+License details: `https://github.com/microsoft/vscode/blob/main/LICENSE.txt`
 
-All product information in this guide is based on VS Code Version 1.109.5 for Windows.
+All product information in this guide is based on VS Code Version `1.109.5` for Windows.
 
 This document is not affiliated with or endorsed by Microsoft Corporation.
 
 ---
 ---
 
-*Document Version: 1.0 | Last Reviewed: [March 9, 2026]*
+*Document Version: 1.1 | Last Reviewed: May 12, 2026*
+
+---
