@@ -7,13 +7,37 @@
 | Product   | Postman     |
 | Document Type | User Guide |
 | OS/Platform | Windows   |
-| Version   | 12.1.3      |
+| Version   | `12.1.3`      |
 | Author | Gokul S Anand  |
-| Last Updated | March 12, 2026 |
+| Last Updated | May 12, 2026 |
 
 ## Introduction
 
 Postman is an API platform developed by Postman Inc. This guide helps users navigate the Postman interface, including Collections, Environments, Requests, and API testing features on Windows.
+
+## Table of Contents
+
+1. Introduction
+
+2. How to Use This Guide
+
+3. Prerequisites
+
+4. Getting Started
+
+5. Key Features
+
+6. Common Tasks
+
+7. Troubleshooting
+
+8. FAQ
+
+9. Support & Contact
+
+10. License & Compliance
+
+---
 
 ## How to Use This Guide
 
@@ -27,8 +51,10 @@ Before you begin, ensure the following requirements are met:
 
 - [ ] Free Postman account created.
 
+- [ ] Your system meets the minimum OS requirement: Windows 10 (64-bit) or later.
+
 - [ ] Postman is installed on your device.  
-Download: https://www.postman.com/downloads/
+Download: `https://www.postman.com/downloads/`
 
 ---
 
@@ -102,7 +128,7 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 ### Task 1: Account Creation
 
-> Note: The first interface that comes after launching the app for the first time is the account creation process.
+> 💡 **Tip:** The first interface after launching the app for the first time is the account creation process. Complete this before attempting any other task.
 
 **Steps:**
 
@@ -142,7 +168,7 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task2.png" width="300px" />
 
-2. Choose **Save**
+2. click on the **Save** icon in right top.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task2.png" width="300px" />
 
@@ -304,19 +330,19 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 ## FAQ
 
-**Q1: What is Postman?**
+**Q1. What is Postman?**
 
 **A:** Postman is a unified platform for designing, testing, distributing, documenting, and monitoring APIs. You can create teams to work together on API development. 
 
-**Q2: Is the Postman app available on any mobile device?**
+**Q2. Is the Postman app available on any mobile device?**
 
 **A:** No, the Postman app is not officially available on mobile devices, but you can access the web version on mobile.
 
-**Q3: I accidentally deleted my Workspace. Is there any way to recover it?**
+**Q3. I accidentally deleted my Workspace. Is there any way to recover it?**
 
 **A:** No, once a workspace gets deleted, there is no way to recover the workspace and its data.
 
-**Q4: How can I access the integration option?**
+**Q4. How can I access the integration option?**
 
 **A:** Postman provides integration options for accessing that:
 
@@ -326,35 +352,35 @@ Agent Mode helps to complete tasks faster across collections, tests, workspaces,
 
 3. Select the integration you want > click **Add Integration**.
 
-**Q5: How do I clear the cache ?**
+**Q5. How do I clear the cache ?**
 
 **A:** You can clear the cache by going to the **Menu icon** in the top left corner > Choose **Help** > click **Clear cache and reload**.
 
 ## Support & Contact
 
-|**Channel**|**Details**|
-|-----------|-----------|
-| Learning Hub | https://www.postman.com/learn |
-| Official Docs | https://learning.postman.com/docs/introduction/overview |
-| Community Forum | https://community.postman.com/ |
-| Release Notes | https://www.postman.com/release-notes/ |
+| **Channel** | **Details** |
+|-------------|-------------|
+| Learning Hub | `https://www.postman.com/learn` |
+| Official Docs | `https://learning.postman.com/docs/introduction/overview` |
+| Community Forum | `https://community.postman.com/` |
+| Release Notes | `https://www.postman.com/release-notes/` |
 
 ## License & Compliance
 
 This document was created for portfolio and educational purposes only.
 
-Postman is developed and maintained by Postman Inc. All trademarks, logos, and product names belong to Postman Inc.
+Postman is proprietary software owned by Postman Inc. 
+Certain open-source components may be licensed under Apache License 2.0. 
 
-Postman is licensed under the Apache License 2.0.  
-License details: https://www.postman.com/legal/eula/
+For full licensing details, refer to: `https://www.postman.com/legal/eula/`
 
-All product information in this guide is based on Postman Version 12.1.3 for Windows.
+All product information in this guide is based on Postman Version `12.1.3` for Windows.
 
 This document is not affiliated with or endorsed by Postman Inc.
 
 ---
 ---
 
-*Document Version: 1.0 | Last Reviewed: March 12, 2026*
+*Document Version: 1.1 | Last Reviewed: May 12, 2026*
 
 ---
