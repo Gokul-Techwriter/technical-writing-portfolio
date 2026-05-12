@@ -7,15 +7,43 @@
 | Product         | Postman                  |
 | Document Type   | Installation Guide       |
 | OS/Platform     | Windows                  |
-| Version         | 12.2.2                   |
+| Version         | `12.2.2`                 |
 | Author          | Gokul S Anand            |
-| Last Updated    | March 18, 2026           |
+| Last Updated    | May 12, 2026            |
 
 ---
 
 ## Introduction
 
 Postman is an API platform developed by Postman, Inc. This guide helps users to successfully download, install, verify, and uninstall the app.
+
+## Table of Contents
+
+1. Introduction
+
+2. Who This Guide Is For
+
+3. System Requirements
+
+4. Prerequisites
+
+5. Downloading Postman
+
+6. Installation Steps
+
+7. Post-Installation Setup
+
+8. Verifying the Installation
+
+9. Uninstallation
+
+10. Troubleshooting
+
+11. FAQ
+
+12. Support & Contact
+
+13. License & Compliance
 
 ## Who This Guide Is For
 
@@ -27,22 +55,17 @@ This guide is intended for:
 
 ## System Requirements
 
-| **Component**   | **Minimum**      | **Recommended**  |
+| **COMPONENT**   | **MINIMUM**      | **RECOMMENDED**   |
 |-----------------|------------------|------------------|
-| OS              | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| OS              | Windows 10 (64-bit) | Windows 11 (64-bit)|
 | RAM             | 4GB              | 8GB              |
 | Disk Space      | 400MB            | 1 GB or more     |
 | Processor       | 64-bit x86 or ARM | Quad-core or better |
 | Internet        | Required         | Stable broadband |
 
-> **Note:** Recommended specifications are based on 
-> general best practices. Official minimum requirements 
-> sourced from postman.com/downloads
+> 📝 **Note:** Recommended specifications are based on general best practices. Official minimum requirements sourced from postman.com/downloads
 
-> ⚠️ **Warning:** Postman v9.4 was the last version 
-> to support 32-bit Windows. All versions after v9.4 
-> require 64-bit Windows. Ensure your system is 
-> 64-bit before downloading.
+> ⚠️ **Warning:**  `Postman v9.4` was the last version to support `32-bit Windows`. All versions after `v9.4` require `64-bit Windows`. Ensure your system is `64-bit` before downloading.
 
 ---
 
@@ -50,7 +73,7 @@ This guide is intended for:
 
 - [ ] Administrator access
 
-- [ ] Your system meets the minimum system requirements.
+- [ ] Your system meets the minimum system requirements
 
 - [ ] Stable internet connection
 
@@ -62,19 +85,17 @@ This guide is intended for:
 
 ### Step 1: Visit the official website
 
-Go to the Official website of Postman: https://www.postman.com/downloads/
+Go to the Official website of Postman: `https://www.postman.com/downloads/`
 
-> ⚠️ **Warning:** Always download from the official 
-> website only. Avoid third-party download sites.
+> ⚠️ **Warning:** Always download from the official website only. Avoid third-party download sites.
 
 ### Step 2: Download the app 
 
-Click on **Windows x64** to download the installer file and wait for its completion
+Click on **Windows x64** to download the installer file and wait for its completion.
 
-> 💡 **Tip:** Note where the file is downloaded -
-> you will need it in the next step.
+> 💡 **Tip:** Note where the file is downloaded, you will need it in the next step.
 
-**Expected Result:**  The installer file is downloaded successfully without any error
+**Expected Result:**  The installer file is downloaded successfully without any error.
 
 ---
 
@@ -82,13 +103,13 @@ Click on **Windows x64** to download the installer file and wait for its complet
 
 ### Step 1: Find the downloaded file
 
-Go to the Downloads folder in your Windows.
+Go to the **Downloads folder** in your Windows.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-install.png" width="300px" />
 
 ### Step 2: Install the app
 
-Double-click Postman (x64) to start the installation process; Postman installs automatically.
+Double-click **Postman (x64)** to start the installation process; Postman installs automatically.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-install.png" width="300px" />
 
@@ -158,13 +179,11 @@ Postman opens automatically once installation is complete.
 
 ### Step 3: Change the Color Theme
 
-**Steps:**
-
 1. Click on the **Settings icon** > **App settings**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-task3.png" width="300px" />
 
-2. Choose **Themes**
+2. Choose **Themes**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-task3.png" width="300px" />
 
@@ -184,11 +203,11 @@ Postman opens automatically once installation is complete.
 
 ## Verifying the Installation
 
-- [ ] Ensure Postman launches without any error.
+- [ ] Ensure Postman launches without any error
 
-- [ ] Verify the version is correct: Open Postman > Click **Settings** > **App settings** > **About**.
+- [ ] Verify the version is correct: Open Postman > Click **Settings** > **App settings** > **About**
 
-- [ ] Confirm that the basic features, such as creating a new request, integration, terminals, mock servers, and console, work properly.
+- [ ] Confirm that the basic features, such as creating a new request, integration, terminals, mock servers, and console work properly
 
 **Expected Result:** Verification of Postman installation is successful.
 
@@ -198,7 +217,7 @@ Postman opens automatically once installation is complete.
 
 ### Windows
 
-1. Open **Start menu** > search **Control Panel** > click **Open**
+1. Open **Start menu** > search **Control Panel** > click **Open**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-01-uninstall.png" width="300px" />
 
@@ -206,11 +225,11 @@ Postman opens automatically once installation is complete.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-02-uninstall.png" width="300px" />
 
-3. Search **Postman x64 12.2.2** 
+3. Search **Postman x64 12.2.2**. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-03-uninstall.png" width="300px" />
 
-4. Right-click on the **Postman x64 12.2.2** > Click **Uninstall**
+4. Right-click on the **Postman x64 12.2.2** > Click **Uninstall**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/postman/step-04-uninstall.png" width="300px" />
  
@@ -234,14 +253,13 @@ Postman opens automatically once installation is complete.
 
 1. Ensure there is enough storage space for the installation.
 
-2. Confirm your system has the minimum requirements to install the app: Open **Start menu** > **Settings** > **System** > **About**.
+2. Confirm your system has the minimum requirements to install the app: Open **Start menu** > **Settings** > **System** > **About**
 
-3. Ensure that the installer file is of the latest version. if not, download the latest version from the official website.
+3. Ensure that the installer file is of the latest version. If not, download the latest version from the official website.
 
 4. Attempt the action again. 
 
-> ⚠️ **Warning:** Do not interrupt the installation 
-> process once it has started.
+> ⚠️ **Warning:** Do not interrupt the installation process once it has started.
 
 **Expected Result:** Postman is successfully installed on Windows.
 
@@ -255,7 +273,7 @@ Postman opens automatically once installation is complete.
 
 **Fix:**
 
-1. Update the app: **Menu** > **Help** > **Check for Updates** > **Update**.
+1. Update the app: **Menu** > **Help** > **Check for Updates** > **Update**
 
 2. Download the latest installer file from the official website and install it.
 
@@ -285,25 +303,25 @@ Postman opens automatically once installation is complete.
 
 ## FAQ
 
-**Q1: Is the Postman app available on any mobile device?**
+**Q1. Is the Postman app available on any mobile device?**
 
 **A:** No, the Postman app is not officially available on mobile devices, but you can access the web version on mobile.
 
-**Q2: Can I manually update the Postman app?**
+**Q2. Can I manually update the Postman app?**
 
-**A:** Yes, for updating the app manually, click on the **Menu icon** (**Three lines**) > **Help** > **Check for Updates** > if a new update is available, click **Update**.
+**A:** Yes, for updating the app manually, click on the **Menu icon** (**Three lines**) > **Help** > **Check for Updates** > If a new update is available, click **Update**.
 
-**Q3: The app is not opening. What should I do?**
+**Q3. The app is not opening. What should I do?**
 
 **A:** This may happen due to the insufficient system requirements/corrupted installer file. Confirm your system meets the minimum requirements and re-download the latest installer file from the official website.
 
 ## Support & Contact
 
-| **Channel**      | **Details**  |
+| **CHANNEL**      | **DETAILS**  |
 |------------------|--------------|
-| Official Docs    | https://learning.postman.com/docs/introduction/overview |
-| Community Forum  | https://community.postman.com/ |
-| FAQ & Support    | https://support.postman.com/hc/en-us/categories/8180165300503-FAQs |
+| Official Docs    | `https://learning.postman.com/docs/introduction/overview` |
+| Community Forum  | `https://community.postman.com/` |
+| FAQ & Support    | `https://support.postman.com/hc/en-us/categories/8180165300503-FAQs` |
 
 ---
 
@@ -311,18 +329,17 @@ Postman opens automatically once installation is complete.
 
 This document was created for portfolio and educational purposes only.
 
-Postman is developed and maintained by Postman Inc. All trademarks, logos, and product names belong to Postman Inc.
+Postman is proprietary software owned by Postman Inc.
+Certain open-source components may be licensed under Apache License 2.0.  
+License details: `https://www.postman.com/legal/eula/`
 
-Postman is licensed under the Apache License 2.0.  
-License details: https://www.postman.com/legal/eula/
-
-All product information in this guide is based on Postman Version 12.2.2 for Windows.
+All product information in this guide is based on Postman Version `12.2.2` for Windows.
 
 This document is not affiliated with or endorsed by Postman Inc.
 
 ---
 ---
 
-*Document Version: 1.0 | Last Reviewed: March 18, 2026*
+*Document Version: 1.1 | Last Reviewed: May 12, 2026*
 
 ---
