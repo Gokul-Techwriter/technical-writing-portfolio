@@ -7,13 +7,37 @@
 | Product | Visual Studio Code (VS Code) |
 | Document Type | User Guide |
 | OS/Platform | Windows |
-| Version | 1.109.5 |
+| Version | `1.119.0` |
 | Author | Gokul S Anand |
 | Last Updated | March 3, 2026 |
 
 ## Introduction
 
 Visual Studio Code (VS Code) is a code editor developed by Microsoft. This guide helps users navigate the VS Code interface, including the Explorer, Extensions, Terminal, and Debug features on Windows.
+
+## Table of Contents
+
+1. Introduction
+
+2. How to Use This Guide
+
+3. Prerequisites
+
+4. Getting Started
+
+5. Key Features
+
+6. Common Tasks
+
+7. Troubleshooting
+
+8. FAQ
+
+9. Support & Contact
+
+10. License & Compliance
+
+---
 
 ## How to Use This Guide
 
@@ -23,10 +47,12 @@ Read this guide from top to bottom if you are a beginner. If you are looking for
 
 Before you begin, ensure the following requirements are met:
 
-- [ ] Astable internet connection.
+- [ ] A stable internet connection.
  
+- [ ] Your system meets the minimum OS requirement: Windows 10 (64-bit) or later.
+
 - [ ] VS Code is installed on your device.  
-Download: <https://code.visualstudio.com/download>
+Download: `https://code.visualstudio.com/download`
 
 ---
 
@@ -202,7 +228,7 @@ Git Integration allows users to track code changes, commit, and manage version c
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-01-task-6.png" width="300px" />
 
-2. Choose **New Terminal** (**Ctrl+Shift+\`**)
+2. Choose **New Terminal** (``Ctrl+Shift+` ``)
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/vs-code/step-02-task-6.png" width="300px" />
 
@@ -267,7 +293,9 @@ Git Integration allows users to track code changes, commit, and manage version c
 **Cause:**
 
 - No workspace or folder open
+
 - Newly installed/updated extensions are blocking.
+
 - Corrupted Terminal settings
 
 **Fix:**
@@ -282,12 +310,12 @@ Git Integration allows users to track code changes, commit, and manage version c
 
 ## FAQ
 
-**Q1: What is VS Code?**
+**Q1. What is VS Code?**
 
 **A:** Visual Studio Code (VS Code) is a code editor 
 made by Microsoft. It offers features like the Integrated Terminal, IntelliSense, Extensions Marketplace, and Git Integration.
 
-**Q2: Which Operating Systems (OS) support VS Code?**
+**Q2. Which Operating Systems (OS) support VS Code?**
 
 **A:** The following OSs support VS Code:
 
@@ -297,32 +325,38 @@ made by Microsoft. It offers features like the Integrated Terminal, IntelliSense
 
 - Linux: Ubuntu 20.04 or later, Debian 10 or later, Red Hat Enterprise Linux 8 or later, Fedora 36 or later
 
-**Q3: Does VS Code need an internet connection?**
+**Q3. Does VS Code need an internet connection?**
 
 **A:** VS Code requires an internet connection for features like installing extensions, automatic updates, and Git integration. Core editing works offline.
 
-**Q4: What is IntelliSense?**
+**Q4. What is IntelliSense?**
 
 **A:** IntelliSense is a built-in feature in VS Code which suggests code completions as you type. This helps you write code faster, eliminating the need to memorize every command or syntax.
 
-**Q5: Why does the app get closed in the middle of use?**
+**Q5. Why does the app get closed in the middle of use?**
 
-**A:** This issue may occur due to an outdated version; to resolve it, do the following:
+**A:** This issue may occur due to an outdated version or a faulty extension. To resolve it:
 
 1. Click **Help** at the top of your screen.
 
-2. Select **Check for Updates**
+2. Select **Check for Updates**.
 
-3. If there is an update available, do it.
+3. If an update is available, install it and restart VS Code.
+
+4. If the issue remains, disable recently installed extensions by going to **Extensions** (Ctrl+Shift+X), right-clicking each recent extension, and selecting **Disable**.
+
+5. If the issue still occurs, reinstall VS Code using the latest installer from `https://code.visualstudio.com/download.`
+
+**Expected Result:** The app runs stably without closing unexpectedly.
 
 ## Support & Contact
 
-|**Channel**|**Details**|
-|-----------|-----------|
-| Official Docs | https://code.visualstudio.com/docs#vscode |
-| Community Forum | https://github.com/microsoft/vscode/discussions |
-| Stack Overflow | https://stackoverflow.com/questions/tagged/vscode |
-| Report an Issue |	https://github.com/microsoft/vscode/issues |
+| **Channel** | **Details** |
+|-------------|-------------|
+| Official Docs | `https://code.visualstudio.com/docs#vscode`|
+| Community Forum | `https://github.com/microsoft/vscode/discussions` |
+| Stack Overflow | `https://stackoverflow.com/questions/tagged/vscode` |
+| Report an Issue |	`https://github.com/microsoft/vscode/issues` |
 
 ## License & Compliance
 
@@ -331,12 +365,15 @@ This document was created for portfolio and educational purposes only.
 Visual Studio Code is developed and maintained by Microsoft Corporation. All trademarks, logos, and product names belong to Microsoft Corporation.
 
 VS Code is licensed under the MIT License.  
-License details: <https://github.com/microsoft/vscode/blob/main/LICENSE.txt>
+License details: `https://github.com/microsoft/vscode/blob/main/LICENSE.txt`
 
-All product information in this guide is based on VS Code Version 1.109.5 for Windows.
+All product information in this guide is based on VS Code Version `1.119.0` for Windows.
 
 This document is not affiliated with or endorsed by Microsoft Corporation.
 
 ---
 ---
-_Document Version: 1.0 | Last Reviewed: March 9, 2026_
+
+_Document Version: 1.1 | Last Reviewed: May 12, 2026_
+
+---
